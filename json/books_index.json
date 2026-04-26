@@ -1,0 +1,664 @@
+{
+  "books": [
+    {
+      "abbrev": "gn",
+      "name": "Genesis",
+      "slug": "genesis",
+      "testament": "OT",
+      "order": 1,
+      "description": "The first book of the Bible, covering creation, the fall, and God's covenant with Abraham, Isaac, and Jacob.",
+      "chapter_count": 50,
+      "url": "https://rootedapp.space/bible/genesis/"
+    },
+    {
+      "abbrev": "ex",
+      "name": "Exodus",
+      "slug": "exodus",
+      "testament": "OT",
+      "order": 2,
+      "description": "The story of Israel's liberation from Egypt through Moses, the giving of the Law at Sinai, and the Tabernacle.",
+      "chapter_count": 40,
+      "url": "https://rootedapp.space/bible/exodus/"
+    },
+    {
+      "abbrev": "lv",
+      "name": "Leviticus",
+      "slug": "leviticus",
+      "testament": "OT",
+      "order": 3,
+      "description": "Laws and rituals given to Israel covering sacrifice, holiness, and the priesthood.",
+      "chapter_count": 27,
+      "url": "https://rootedapp.space/bible/leviticus/"
+    },
+    {
+      "abbrev": "nm",
+      "name": "Numbers",
+      "slug": "numbers",
+      "testament": "OT",
+      "order": 4,
+      "description": "Israel's wilderness journey, including the census of tribes and the forty years of wandering.",
+      "chapter_count": 36,
+      "url": "https://rootedapp.space/bible/numbers/"
+    },
+    {
+      "abbrev": "dt",
+      "name": "Deuteronomy",
+      "slug": "deuteronomy",
+      "testament": "OT",
+      "order": 5,
+      "description": "Moses' farewell addresses restating the Law and preparing Israel to enter the Promised Land.",
+      "chapter_count": 34,
+      "url": "https://rootedapp.space/bible/deuteronomy/"
+    },
+    {
+      "abbrev": "js",
+      "name": "Joshua",
+      "slug": "joshua",
+      "testament": "OT",
+      "order": 6,
+      "description": "The conquest and division of Canaan under Israel's leader Joshua after Moses' death.",
+      "chapter_count": 24,
+      "url": "https://rootedapp.space/bible/joshua/"
+    },
+    {
+      "abbrev": "jud",
+      "name": "Judges",
+      "slug": "judges",
+      "testament": "OT",
+      "order": 7,
+      "description": "Cycles of sin, oppression, and deliverance in Israel through leaders called judges.",
+      "chapter_count": 21,
+      "url": "https://rootedapp.space/bible/judges/"
+    },
+    {
+      "abbrev": "rt",
+      "name": "Ruth",
+      "slug": "ruth",
+      "testament": "OT",
+      "order": 8,
+      "description": "A story of loyalty and redemption following a Moabite woman who follows her mother-in-law to Israel.",
+      "chapter_count": 4,
+      "url": "https://rootedapp.space/bible/ruth/"
+    },
+    {
+      "abbrev": "1sm",
+      "name": "1 Samuel",
+      "slug": "1-samuel",
+      "testament": "OT",
+      "order": 9,
+      "description": "Israel's transition from judges to monarchy through the lives of Samuel, Saul, and David.",
+      "chapter_count": 31,
+      "url": "https://rootedapp.space/bible/1-samuel/"
+    },
+    {
+      "abbrev": "2sm",
+      "name": "2 Samuel",
+      "slug": "2-samuel",
+      "testament": "OT",
+      "order": 10,
+      "description": "The reign of King David over Israel, his triumphs and his failures.",
+      "chapter_count": 24,
+      "url": "https://rootedapp.space/bible/2-samuel/"
+    },
+    {
+      "abbrev": "1kgs",
+      "name": "1 Kings",
+      "slug": "1-kings",
+      "testament": "OT",
+      "order": 11,
+      "description": "Solomon's reign and the building of the Temple, followed by the division of Israel's kingdom.",
+      "chapter_count": 22,
+      "url": "https://rootedapp.space/bible/1-kings/"
+    },
+    {
+      "abbrev": "2kgs",
+      "name": "2 Kings",
+      "slug": "2-kings",
+      "testament": "OT",
+      "order": 12,
+      "description": "The decline and fall of both Israel and Judah, ending in exile under Assyria and Babylon.",
+      "chapter_count": 25,
+      "url": "https://rootedapp.space/bible/2-kings/"
+    },
+    {
+      "abbrev": "1ch",
+      "name": "1 Chronicles",
+      "slug": "1-chronicles",
+      "testament": "OT",
+      "order": 13,
+      "description": "A retelling of Israel's history from Adam to David, focusing on the priesthood and worship.",
+      "chapter_count": 29,
+      "url": "https://rootedapp.space/bible/1-chronicles/"
+    },
+    {
+      "abbrev": "2ch",
+      "name": "2 Chronicles",
+      "slug": "2-chronicles",
+      "testament": "OT",
+      "order": 14,
+      "description": "The history of Judah's kings from Solomon through the exile and the decree of Cyrus.",
+      "chapter_count": 36,
+      "url": "https://rootedapp.space/bible/2-chronicles/"
+    },
+    {
+      "abbrev": "ezr",
+      "name": "Ezra",
+      "slug": "ezra",
+      "testament": "OT",
+      "order": 15,
+      "description": "The return of Jewish exiles from Babylon and the restoration of worship in Jerusalem.",
+      "chapter_count": 10,
+      "url": "https://rootedapp.space/bible/ezra/"
+    },
+    {
+      "abbrev": "ne",
+      "name": "Nehemiah",
+      "slug": "nehemiah",
+      "testament": "OT",
+      "order": 16,
+      "description": "Nehemiah leads the rebuilding of Jerusalem's walls and the renewal of the covenant community.",
+      "chapter_count": 13,
+      "url": "https://rootedapp.space/bible/nehemiah/"
+    },
+    {
+      "abbrev": "et",
+      "name": "Esther",
+      "slug": "esther",
+      "testament": "OT",
+      "order": 17,
+      "description": "A Jewish woman becomes queen of Persia and saves her people from genocide.",
+      "chapter_count": 10,
+      "url": "https://rootedapp.space/bible/esther/"
+    },
+    {
+      "abbrev": "job",
+      "name": "Job",
+      "slug": "job",
+      "testament": "OT",
+      "order": 18,
+      "description": "The story of a righteous man who suffers greatly, raising profound questions about suffering and God's justice.",
+      "chapter_count": 42,
+      "url": "https://rootedapp.space/bible/job/"
+    },
+    {
+      "abbrev": "ps",
+      "name": "Psalms",
+      "slug": "psalms",
+      "testament": "OT",
+      "order": 19,
+      "description": "150 songs and prayers covering praise, lament, thanksgiving, and wisdom — the hymnbook of Israel.",
+      "chapter_count": 151,
+      "url": "https://rootedapp.space/bible/psalms/"
+    },
+    {
+      "abbrev": "prv",
+      "name": "Proverbs",
+      "slug": "proverbs",
+      "testament": "OT",
+      "order": 20,
+      "description": "Practical wisdom for daily life, covering work, relationships, speech, and the fear of the Lord.",
+      "chapter_count": 31,
+      "url": "https://rootedapp.space/bible/proverbs/"
+    },
+    {
+      "abbrev": "ec",
+      "name": "Ecclesiastes",
+      "slug": "ecclesiastes",
+      "testament": "OT",
+      "order": 21,
+      "description": "A meditation on the meaning of life \"under the sun,\" concluding that fearing God is all that matters.",
+      "chapter_count": 12,
+      "url": "https://rootedapp.space/bible/ecclesiastes/"
+    },
+    {
+      "abbrev": "so",
+      "name": "Song of Solomon",
+      "slug": "song-of-solomon",
+      "testament": "OT",
+      "order": 22,
+      "description": "A collection of love poetry celebrating the beauty of romantic love as a gift from God.",
+      "chapter_count": 8,
+      "url": "https://rootedapp.space/bible/song-of-solomon/"
+    },
+    {
+      "abbrev": "is",
+      "name": "Isaiah",
+      "slug": "isaiah",
+      "testament": "OT",
+      "order": 23,
+      "description": "Prophecies of judgment and salvation, with a vision of the coming Servant of the Lord and new creation.",
+      "chapter_count": 66,
+      "url": "https://rootedapp.space/bible/isaiah/"
+    },
+    {
+      "abbrev": "jr",
+      "name": "Jeremiah",
+      "slug": "jeremiah",
+      "testament": "OT",
+      "order": 24,
+      "description": "The weeping prophet calls Judah to repentance before and during the Babylonian conquest of Jerusalem.",
+      "chapter_count": 52,
+      "url": "https://rootedapp.space/bible/jeremiah/"
+    },
+    {
+      "abbrev": "lm",
+      "name": "Lamentations",
+      "slug": "lamentations",
+      "testament": "OT",
+      "order": 25,
+      "description": "Poems of grief over the destruction of Jerusalem and the suffering of God's people in exile.",
+      "chapter_count": 5,
+      "url": "https://rootedapp.space/bible/lamentations/"
+    },
+    {
+      "abbrev": "ez",
+      "name": "Ezekiel",
+      "slug": "ezekiel",
+      "testament": "OT",
+      "order": 26,
+      "description": "Vivid prophetic visions given to Ezekiel in Babylon, pointing to Israel's restoration and God's glory.",
+      "chapter_count": 48,
+      "url": "https://rootedapp.space/bible/ezekiel/"
+    },
+    {
+      "abbrev": "dn",
+      "name": "Daniel",
+      "slug": "daniel",
+      "testament": "OT",
+      "order": 27,
+      "description": "Stories of faithfulness and apocalyptic visions of world empires and God's ultimate kingdom.",
+      "chapter_count": 12,
+      "url": "https://rootedapp.space/bible/daniel/"
+    },
+    {
+      "abbrev": "ho",
+      "name": "Hosea",
+      "slug": "hosea",
+      "testament": "OT",
+      "order": 28,
+      "description": "God's faithful love for unfaithful Israel, told through the prophet's own painful marriage.",
+      "chapter_count": 14,
+      "url": "https://rootedapp.space/bible/hosea/"
+    },
+    {
+      "abbrev": "jl",
+      "name": "Joel",
+      "slug": "joel",
+      "testament": "OT",
+      "order": 29,
+      "description": "A locust plague as a call to repentance, with a promise of the outpouring of God's Spirit.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/joel/"
+    },
+    {
+      "abbrev": "am",
+      "name": "Amos",
+      "slug": "amos",
+      "testament": "OT",
+      "order": 30,
+      "description": "A shepherd-prophet confronts Israel's social injustice and empty religious ritual.",
+      "chapter_count": 9,
+      "url": "https://rootedapp.space/bible/amos/"
+    },
+    {
+      "abbrev": "ob",
+      "name": "Obadiah",
+      "slug": "obadiah",
+      "testament": "OT",
+      "order": 31,
+      "description": "A short oracle of judgment against Edom for betraying their brother nation Israel.",
+      "chapter_count": 1,
+      "url": "https://rootedapp.space/bible/obadiah/"
+    },
+    {
+      "abbrev": "jn",
+      "name": "Jonah",
+      "slug": "jonah",
+      "testament": "OT",
+      "order": 32,
+      "description": "A reluctant prophet flees from God, is swallowed by a great fish, and brings Nineveh to repentance.",
+      "chapter_count": 4,
+      "url": "https://rootedapp.space/bible/jonah/"
+    },
+    {
+      "abbrev": "mi",
+      "name": "Micah",
+      "slug": "micah",
+      "testament": "OT",
+      "order": 33,
+      "description": "Prophecies of judgment and restoration, with the famous promise of a ruler born in Bethlehem.",
+      "chapter_count": 7,
+      "url": "https://rootedapp.space/bible/micah/"
+    },
+    {
+      "abbrev": "na",
+      "name": "Nahum",
+      "slug": "nahum",
+      "testament": "OT",
+      "order": 34,
+      "description": "An oracle pronouncing Nineveh's doom and the end of Assyrian oppression over Israel.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/nahum/"
+    },
+    {
+      "abbrev": "hk",
+      "name": "Habakkuk",
+      "slug": "habakkuk",
+      "testament": "OT",
+      "order": 35,
+      "description": "A prophet wrestles with God over injustice and evil, concluding with a song of trust.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/habakkuk/"
+    },
+    {
+      "abbrev": "zp",
+      "name": "Zephaniah",
+      "slug": "zephaniah",
+      "testament": "OT",
+      "order": 36,
+      "description": "The Day of the Lord is announced as both judgment and the hope of a purified remnant.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/zephaniah/"
+    },
+    {
+      "abbrev": "hg",
+      "name": "Haggai",
+      "slug": "haggai",
+      "testament": "OT",
+      "order": 37,
+      "description": "A call to the returned exiles to rebuild the Temple and trust in God's greater glory to come.",
+      "chapter_count": 2,
+      "url": "https://rootedapp.space/bible/haggai/"
+    },
+    {
+      "abbrev": "zc",
+      "name": "Zechariah",
+      "slug": "zechariah",
+      "testament": "OT",
+      "order": 38,
+      "description": "Night visions and messianic prophecies pointing to a coming king who enters Jerusalem on a donkey.",
+      "chapter_count": 14,
+      "url": "https://rootedapp.space/bible/zechariah/"
+    },
+    {
+      "abbrev": "ml",
+      "name": "Malachi",
+      "slug": "malachi",
+      "testament": "OT",
+      "order": 39,
+      "description": "The last prophetic voice of the Old Testament, calling Israel to faithfulness before the Day of the Lord.",
+      "chapter_count": 4,
+      "url": "https://rootedapp.space/bible/malachi/"
+    },
+    {
+      "abbrev": "mt",
+      "name": "Matthew",
+      "slug": "matthew",
+      "testament": "NT",
+      "order": 40,
+      "description": "The Gospel of Jesus as Israel's Messiah and the fulfillment of Old Testament prophecy.",
+      "chapter_count": 28,
+      "url": "https://rootedapp.space/bible/matthew/"
+    },
+    {
+      "abbrev": "mk",
+      "name": "Mark",
+      "slug": "mark",
+      "testament": "NT",
+      "order": 41,
+      "description": "The fastest-paced Gospel, presenting Jesus as the powerful Servant of God who came to give his life.",
+      "chapter_count": 16,
+      "url": "https://rootedapp.space/bible/mark/"
+    },
+    {
+      "abbrev": "lk",
+      "name": "Luke",
+      "slug": "luke",
+      "testament": "NT",
+      "order": 42,
+      "description": "A detailed account of Jesus' life and ministry with special attention to the poor, women, and outcasts.",
+      "chapter_count": 24,
+      "url": "https://rootedapp.space/bible/luke/"
+    },
+    {
+      "abbrev": "jo",
+      "name": "John",
+      "slug": "john",
+      "testament": "NT",
+      "order": 43,
+      "description": "The theological Gospel, presenting Jesus as the eternal Word of God through signs and \"I am\" sayings.",
+      "chapter_count": 21,
+      "url": "https://rootedapp.space/bible/john/"
+    },
+    {
+      "abbrev": "act",
+      "name": "Acts",
+      "slug": "acts",
+      "testament": "NT",
+      "order": 44,
+      "description": "The spread of the early church from Jerusalem to Rome through the power of the Holy Spirit.",
+      "chapter_count": 28,
+      "url": "https://rootedapp.space/bible/acts/"
+    },
+    {
+      "abbrev": "rm",
+      "name": "Romans",
+      "slug": "romans",
+      "testament": "NT",
+      "order": 45,
+      "description": "Paul's comprehensive letter on justification by faith, the gospel, and life in the Spirit.",
+      "chapter_count": 16,
+      "url": "https://rootedapp.space/bible/romans/"
+    },
+    {
+      "abbrev": "1co",
+      "name": "1 Corinthians",
+      "slug": "1-corinthians",
+      "testament": "NT",
+      "order": 46,
+      "description": "Paul addresses divisions, immorality, spiritual gifts, and the resurrection in the church at Corinth.",
+      "chapter_count": 16,
+      "url": "https://rootedapp.space/bible/1-corinthians/"
+    },
+    {
+      "abbrev": "2co",
+      "name": "2 Corinthians",
+      "slug": "2-corinthians",
+      "testament": "NT",
+      "order": 47,
+      "description": "Paul defends his apostleship and calls the Corinthians to reconciliation and generosity.",
+      "chapter_count": 13,
+      "url": "https://rootedapp.space/bible/2-corinthians/"
+    },
+    {
+      "abbrev": "gl",
+      "name": "Galatians",
+      "slug": "galatians",
+      "testament": "NT",
+      "order": 48,
+      "description": "Paul's passionate defense of justification by faith alone against those adding the Law to the gospel.",
+      "chapter_count": 6,
+      "url": "https://rootedapp.space/bible/galatians/"
+    },
+    {
+      "abbrev": "eph",
+      "name": "Ephesians",
+      "slug": "ephesians",
+      "testament": "NT",
+      "order": 49,
+      "description": "God's eternal plan to unite all things in Christ, and the call to walk worthy of that calling.",
+      "chapter_count": 6,
+      "url": "https://rootedapp.space/bible/ephesians/"
+    },
+    {
+      "abbrev": "ph",
+      "name": "Philippians",
+      "slug": "philippians",
+      "testament": "NT",
+      "order": 50,
+      "description": "A letter of joy written from prison, calling believers to unity, humility, and contentment in Christ.",
+      "chapter_count": 4,
+      "url": "https://rootedapp.space/bible/philippians/"
+    },
+    {
+      "abbrev": "cl",
+      "name": "Colossians",
+      "slug": "colossians",
+      "testament": "NT",
+      "order": 51,
+      "description": "Christ's supremacy over all creation and the call to set your mind on things above.",
+      "chapter_count": 4,
+      "url": "https://rootedapp.space/bible/colossians/"
+    },
+    {
+      "abbrev": "1ts",
+      "name": "1 Thessalonians",
+      "slug": "1-thessalonians",
+      "testament": "NT",
+      "order": 52,
+      "description": "Encouragement to a young church and teaching on the second coming of Christ.",
+      "chapter_count": 5,
+      "url": "https://rootedapp.space/bible/1-thessalonians/"
+    },
+    {
+      "abbrev": "2ts",
+      "name": "2 Thessalonians",
+      "slug": "2-thessalonians",
+      "testament": "NT",
+      "order": 53,
+      "description": "Correction of confusion about the Day of the Lord and a call to steadfast work and faith.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/2-thessalonians/"
+    },
+    {
+      "abbrev": "1tm",
+      "name": "1 Timothy",
+      "slug": "1-timothy",
+      "testament": "NT",
+      "order": 54,
+      "description": "Paul's instructions to Timothy on church leadership, sound doctrine, and godly conduct.",
+      "chapter_count": 6,
+      "url": "https://rootedapp.space/bible/1-timothy/"
+    },
+    {
+      "abbrev": "2tm",
+      "name": "2 Timothy",
+      "slug": "2-timothy",
+      "testament": "NT",
+      "order": 55,
+      "description": "Paul's final letter, urging Timothy to guard the gospel and endure hardship as a soldier of Christ.",
+      "chapter_count": 4,
+      "url": "https://rootedapp.space/bible/2-timothy/"
+    },
+    {
+      "abbrev": "tt",
+      "name": "Titus",
+      "slug": "titus",
+      "testament": "NT",
+      "order": 56,
+      "description": "Instructions for establishing godly church order and the transforming power of God's grace.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/titus/"
+    },
+    {
+      "abbrev": "phm",
+      "name": "Philemon",
+      "slug": "philemon",
+      "testament": "NT",
+      "order": 57,
+      "description": "A personal appeal from Paul asking Philemon to receive back his runaway slave Onesimus as a brother.",
+      "chapter_count": 1,
+      "url": "https://rootedapp.space/bible/philemon/"
+    },
+    {
+      "abbrev": "hb",
+      "name": "Hebrews",
+      "slug": "hebrews",
+      "testament": "NT",
+      "order": 58,
+      "description": "Christ as the superior high priest and the fulfillment of all Old Testament types and shadows.",
+      "chapter_count": 13,
+      "url": "https://rootedapp.space/bible/hebrews/"
+    },
+    {
+      "abbrev": "jm",
+      "name": "James",
+      "slug": "james",
+      "testament": "NT",
+      "order": 59,
+      "description": "Practical wisdom on faith that works, taming the tongue, and caring for the poor.",
+      "chapter_count": 5,
+      "url": "https://rootedapp.space/bible/james/"
+    },
+    {
+      "abbrev": "1pe",
+      "name": "1 Peter",
+      "slug": "1-peter",
+      "testament": "NT",
+      "order": 60,
+      "description": "Encouragement to suffering believers to stand firm in grace as God's holy and elect people.",
+      "chapter_count": 5,
+      "url": "https://rootedapp.space/bible/1-peter/"
+    },
+    {
+      "abbrev": "2pe",
+      "name": "2 Peter",
+      "slug": "2-peter",
+      "testament": "NT",
+      "order": 61,
+      "description": "A call to grow in grace and guard against false teachers who distort the truth.",
+      "chapter_count": 3,
+      "url": "https://rootedapp.space/bible/2-peter/"
+    },
+    {
+      "abbrev": "1jo",
+      "name": "1 John",
+      "slug": "1-john",
+      "testament": "NT",
+      "order": 62,
+      "description": "Tests for genuine Christian fellowship: walking in light, loving one another, and believing in Christ.",
+      "chapter_count": 5,
+      "url": "https://rootedapp.space/bible/1-john/"
+    },
+    {
+      "abbrev": "2jo",
+      "name": "2 John",
+      "slug": "2-john",
+      "testament": "NT",
+      "order": 63,
+      "description": "A brief letter urging a chosen lady and her children to walk in love and reject false teachers.",
+      "chapter_count": 1,
+      "url": "https://rootedapp.space/bible/2-john/"
+    },
+    {
+      "abbrev": "3jo",
+      "name": "3 John",
+      "slug": "3-john",
+      "testament": "NT",
+      "order": 64,
+      "description": "A commendation of Gaius for his hospitality and a warning against the pride of Diotrephes.",
+      "chapter_count": 1,
+      "url": "https://rootedapp.space/bible/3-john/"
+    },
+    {
+      "abbrev": "jd",
+      "name": "Jude",
+      "slug": "jude",
+      "testament": "NT",
+      "order": 65,
+      "description": "A call to contend earnestly for the faith against ungodly teachers who have crept into the church.",
+      "chapter_count": 1,
+      "url": "https://rootedapp.space/bible/jude/"
+    },
+    {
+      "abbrev": "re",
+      "name": "Revelation",
+      "slug": "revelation",
+      "testament": "NT",
+      "order": 66,
+      "description": "Apocalyptic visions of the cosmic conflict between good and evil, ending in the new heaven and earth.",
+      "chapter_count": 22,
+      "url": "https://rootedapp.space/bible/revelation/"
+    }
+  ]
+}
