@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://llt.rootedapp.space/sitemap.xml
