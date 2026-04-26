@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mattjhagen.github.io/Living-Legacy-Translation/sitemap.xml
