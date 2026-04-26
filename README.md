@@ -1,47 +1,32 @@
-# Rooted Daily Global Bible — SEO Package
+About: The Rooted Translation (RT) 
+The Rooted Translation is a modern, proprietary Bible translation engineered for the digital age and a cornerstone of the Rooted Daily ecosystem. This repository serves as the primary distribution point for the RT text, providing a high-performance, SEO-optimized framework for delivering Scripture across Web, Mobile, and AI platforms.
 
-Generated: 2026-04-26  
-Translation: Rooted Daily Global Bible  
-Publisher: PacMac Mobile LLC
+The Mission
+The Rooted Translation was born out of a desire to create a "Living Legacy." It is designed to mimic the intimate experience of discovering a loved one’s personal Bible—complete with handwritten marginalia, shared insights, and a lifetime of highlights. By combining a core, proprietary rendering with an "AI-Insight" layer, the RT transforms the Bible from a static document into a living, growing heritage.
 
-## Contents
+Technical Architecture
+This repository is optimized for Global Discovery and Developer Integration:
 
-### `/markdown/`
-One folder per book (66 total), each containing:
-- `README.md` — Book overview with description and chapter links
-- `1.md`, `2.md`, … — One Markdown file per chapter with full verse text
+Semantic SEO: Every book (66) and chapter (1,189) is mapped to a dedicated Markdown and HTML file with integrated Schema.org (JSON-LD) structured data. This ensures the RT is indexed by search engines as a premier work of scholarship.
 
-**1,256 total Markdown files** covering all 66 books and 1,189 chapters.
+Universal Formats: * Markdown: Clean, plain-text source for AI training and documentation.
 
-### `/html/`
-- `bible_index.html` — Enhanced Bible browser page (drop-in replacement for `/bible/index.html`)
-- `[book-slug]/index.html` — One enhanced book index page per book (66 files)
+JSON Indexing: Lightweight endpoints (books_index.json) for instant mobile app performance.
 
-All HTML pages include:
-- Canonical URLs
-- Open Graph + Twitter Card meta tags
-- JSON-LD structured data (Schema.org `Book`, `Chapter`, `BreadcrumbList`)
-- Google Analytics tag (G-HSEJQQEFLJ)
-- SEO-optimized titles and meta descriptions
+Static HTML: Blazing-fast, SEO-optimized pages with Open Graph meta tags for social sharing.
 
-### `/json/`
-- `sitemap.json` — Full structured sitemap with all books, chapters, and URLs
-- `books_index.json` — Lightweight books list (abbrev, slug, description, chapter count)
-- `chapters_index.json` — Flat list of all 1,189 chapters with verse counts and URLs
+Heirloom Layer Logic: The structure is built to support the "Legacy Footnote" system, allowing developers to overlay user-generated and AI-generated insights without compromising the core text integrity.
 
-### `/sitemap.xml`
-XML sitemap for submission to Google Search Console and Bing Webmaster Tools.  
-Covers: Home, /bible/, all 66 book pages, all 1,189 chapter pages.  
-**7,551 lines | 213KB**
+Vital Statistics
+Books: 66
 
-## Deployment Notes
+Chapters: 1,190 (including the Expanded Psalter)
 
-1. **Drop the enhanced HTML pages** into your GitHub Pages repo:
-   - Replace `bible/index.html` with `html/bible_index.html`
-   - Copy each `html/[book]/index.html` into the matching `bible/[book]/` folder
+Verses: 31,109
 
-2. **Submit sitemap.xml** to Google Search Console at rootedapp.space
+Translation Philosophy: Emotional Resonance & Modern Clarity (Rooted Translation)
 
-3. **Use `books_index.json`** as a lightweight API endpoint for the mobile app's Bible browser
+**Usage for Rooted Daily**
+This repository acts as the Source of Truth for the Rooted_Daily mobile application. The sitemap.xml and HTML structures are designed to funnel web traffic directly into the app's ecosystem, bridging the gap between web search and mobile devotion.
 
-4. **Serve Markdown files** as fallback plain-text content for RSS, AI indexing, or CLI tools
+Published by PacMac Mobile LLC. All rights reserved.
