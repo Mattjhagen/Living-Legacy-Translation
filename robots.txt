@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
+Allow: /bible
+Disallow: /temp
+Disallow: /scratch
+Disallow: /scripts
+Disallow: /json
+
 Sitemap: https://llt.rootedapp.space/sitemap.xml
