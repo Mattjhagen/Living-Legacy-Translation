@@ -16,9 +16,9 @@ JSON Indexing: Lightweight endpoints (books_index.json) for instant mobile app p
 
 Static HTML: Blazing-fast, SEO-optimized pages with Open Graph meta tags for social sharing.
 
-Heirloom Layer Logic: The structure is built to support the "Legacy Footnote" system, allowing developers to overlay user-generated and AI-generated insights without compromising the core text integrity.
+**Heirloom Layer Logic:** The structure is built to support the "Legacy Footnote" system, allowing developers to overlay user-generated and AI-generated insights without compromising the core text integrity.
 
-Vital Statistics
+**Vital Statistics**
 Books: 66
 
 Chapters: 1,190 (including the Expanded Psalter)
