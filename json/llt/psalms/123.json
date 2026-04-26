@@ -1,0 +1,37 @@
+{
+  "translation": "LLT",
+  "translation_name": "Living Legacy Translation",
+  "book": "Psalms",
+  "book_slug": "psalms",
+  "testament": "OT",
+  "chapter": 123,
+  "verse_count": 4,
+  "verses": [
+    {
+      "number": 1,
+      "text": "A Song of Ascents.    To you I do lift up my eyes, you who sit in the heavens."
+    },
+    {
+      "number": 2,
+      "text": "Behold, as the eyes of servants look to the hand of their master, as the eyes of a maid to the hand of her mistress; so our eyes look to Yahweh, our God, until he has mercy on us."
+    },
+    {
+      "number": 3,
+      "text": "Have mercy on us, Yahweh, have mercy on us, for we have endured much contempt."
+    },
+    {
+      "number": 4,
+      "text": "Our soul is exceedingly filled with the scoffing of those who are at ease, with the contempt of the proud."
+    }
+  ],
+  "footnotes": [
+    {
+      "verse": 1,
+      "content": "",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    }
+  ]
+}

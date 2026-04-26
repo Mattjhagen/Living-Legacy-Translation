@@ -1,0 +1,29 @@
+{
+  "translation": "LLT",
+  "translation_name": "Living Legacy Translation",
+  "book": "Psalms",
+  "book_slug": "psalms",
+  "testament": "OT",
+  "chapter": 117,
+  "verse_count": 2,
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise Yahweh, all you nations! Extol him, all you peoples!"
+    },
+    {
+      "number": 2,
+      "text": "For his loving kindness is great toward us. Yahweh’s faithfulness endures forever. Praise Yah!"
+    }
+  ],
+  "footnotes": [
+    {
+      "verse": 1,
+      "content": "",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    }
+  ]
+}

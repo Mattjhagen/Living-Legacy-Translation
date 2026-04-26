@@ -1,0 +1,315 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   Living Legacy Translation — Heirloom Styles + Translation Switcher
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Translation Switcher ─────────────────────────────────────────────── */
+.translation-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.2rem;
+  font-family: var(--sans, system-ui, sans-serif);
+}
+
+.switcher-label {
+  font-size: 0.8rem;
+  color: var(--secondary, #6b5040);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.switcher-toggle {
+  display: flex;
+  background: #ede4d4;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.switcher-btn {
+  font-family: var(--sans, system-ui, sans-serif);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: transparent;
+  color: var(--secondary, #6b5040);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.switcher-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.switcher-btn.active {
+  background: var(--accent, #3d6b4f);
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.llt-icon {
+  font-size: 0.65rem;
+  opacity: 0.8;
+}
+
+/* ── LLT Mode — Heirloom Body Shift ──────────────────────────────────── */
+body.llt-mode {
+  background: #faf3e6;
+}
+
+body.llt-mode .verse-container {
+  position: relative;
+}
+
+/* ── Verse Footnote Indicator ─────────────────────────────────────────── */
+.verse.has-footnote {
+  cursor: pointer;
+  position: relative;
+}
+
+.verse.has-footnote:hover {
+  background: rgba(253, 247, 231, 0.6);
+  border-radius: 4px;
+}
+
+.verse.has-footnote:active {
+  background: rgba(253, 247, 231, 0.9);
+}
+
+.footnote-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  font-size: 0.6rem;
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  color: #8B4513;
+  background: rgba(253, 247, 231, 0.9);
+  border: 1px solid rgba(139, 69, 19, 0.25);
+  border-radius: 50%;
+  margin-left: 0.4rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  vertical-align: super;
+  line-height: 1;
+}
+
+.footnote-indicator:hover {
+  background: rgba(139, 69, 19, 0.15);
+  transform: scale(1.15);
+}
+
+/* ── Bottom Sheet Overlay ─────────────────────────────────────────────── */
+.footnote-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(44, 31, 14, 0.35);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.footnote-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ── Bottom Sheet Panel ───────────────────────────────────────────────── */
+.footnote-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  max-height: 70vh;
+  background: #fdf7ed;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -4px 30px rgba(44, 31, 14, 0.15);
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  /* Paper texture effect */
+  background-image:
+    radial-gradient(ellipse at 20% 80%, rgba(139, 69, 19, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(139, 69, 19, 0.02) 0%, transparent 50%);
+}
+
+.footnote-sheet.open {
+  transform: translateY(0);
+}
+
+/* ── Sheet Handle ─────────────────────────────────────────────────────── */
+.sheet-handle {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 6px;
+  cursor: grab;
+  flex-shrink: 0;
+}
+
+.sheet-handle-bar {
+  width: 36px;
+  height: 4px;
+  background: rgba(139, 69, 19, 0.2);
+  border-radius: 2px;
+}
+
+/* ── Sheet Header ─────────────────────────────────────────────────────── */
+.sheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem 0.8rem;
+  border-bottom: 1px solid rgba(139, 69, 19, 0.1);
+  flex-shrink: 0;
+}
+
+.sheet-verse-ref {
+  font-family: var(--font, 'Lora', Georgia, serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2c1f0e;
+}
+
+.sheet-close {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #6b5040;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 50%;
+  transition: background 0.15s;
+  line-height: 1;
+}
+
+.sheet-close:hover {
+  background: rgba(139, 69, 19, 0.1);
+}
+
+/* ── Sheet Body (scrollable) ──────────────────────────────────────────── */
+.sheet-body {
+  overflow-y: auto;
+  padding: 1.2rem 1.5rem 2rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Heirloom Footnote Card ───────────────────────────────────────────── */
+.llt-footnote {
+  font-family: 'Caveat', cursive;
+  font-size: 1.15rem;
+  color: #34495e;
+  line-height: 1.45;
+  padding: 1rem 1.2rem;
+  border-left: 2.5px solid rgba(139, 69, 19, 0.3);
+  background-color: rgba(253, 247, 231, 0.7);
+  margin: 0 0 1rem 0;
+  border-radius: 2px;
+
+  /* Paper texture */
+  background-image:
+    linear-gradient(to bottom, rgba(139, 69, 19, 0.01) 0%, transparent 3px);
+  background-size: 100% 1.45em;
+}
+
+.llt-footnote:last-child {
+  margin-bottom: 0;
+}
+
+.llt-note-content {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.llt-note-sig {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(107, 80, 64, 0.6);
+  font-style: italic;
+  text-align: right;
+  margin-top: 0.3rem;
+}
+
+/* Community notes — blue ink */
+.llt-footnote.community-note {
+  color: #2C3E50;
+  border-left-color: rgba(44, 62, 80, 0.3);
+}
+
+/* ── Legacy Highlight (marker stroke) ─────────────────────────────────── */
+.llt-highlight {
+  background: linear-gradient(
+    to bottom,
+    transparent 55%,
+    rgba(255, 226, 0, 0.4) 55%,
+    rgba(255, 226, 0, 0.4) 90%,
+    transparent 90%
+  );
+  border-radius: 1px;
+  padding: 0 2px;
+}
+
+/* ── Empty State ──────────────────────────────────────────────────────── */
+.sheet-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #6b5040;
+  font-family: var(--sans, system-ui, sans-serif);
+}
+
+.sheet-empty-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.4;
+}
+
+.sheet-empty p {
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+@media (min-width: 768px) {
+  .footnote-sheet {
+    max-width: 520px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    border-radius: 18px 18px 0 0;
+  }
+
+  .footnote-sheet.open {
+    transform: translate(-50%, 0);
+  }
+}
+
+/* ── Safe area for mobile notch ───────────────────────────────────────── */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .sheet-body {
+    padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .footnote-sheet,
+  .footnote-overlay,
+  .footnote-indicator,
+  .llt-footnote {
+    transition: none;
+  }
+}

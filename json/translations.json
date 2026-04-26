@@ -1,0 +1,28 @@
+{
+  "translations": [
+    {
+      "id": "web",
+      "name": "World English Bible",
+      "abbrev": "WEB",
+      "language": "en",
+      "description": "A public domain modern English translation based on the American Standard Version.",
+      "license": "Public Domain",
+      "default": true
+    },
+    {
+      "id": "llt",
+      "name": "Living Legacy Translation",
+      "abbrev": "LLT",
+      "language": "en",
+      "description": "Ancient Truth in Today's Language — a modern, faithful English Bible with AI insights and community footnotes.",
+      "license": "© 2026 PacMac Mobile LLC",
+      "default": false,
+      "features": {
+        "footnotes": true,
+        "heirloom_style": true,
+        "community_notes": true
+      }
+    }
+  ],
+  "default_translation": "web"
+}

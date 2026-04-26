@@ -1,0 +1,19 @@
+{
+  "translation": "WEB",
+  "translation_name": "World English Bible",
+  "book": "Psalms",
+  "book_slug": "psalms",
+  "testament": "OT",
+  "chapter": 117,
+  "verse_count": 2,
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise Yahweh, all you nations! Extol him, all you peoples!"
+    },
+    {
+      "number": 2,
+      "text": "For his loving kindness is great toward us. Yahweh’s faithfulness endures forever. Praise Yah!"
+    }
+  ]
+}

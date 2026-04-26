@@ -1,0 +1,33 @@
+{
+  "translation": "LLT",
+  "translation_name": "Living Legacy Translation",
+  "book": "Psalms",
+  "book_slug": "psalms",
+  "testament": "OT",
+  "chapter": 131,
+  "verse_count": 3,
+  "verses": [
+    {
+      "number": 1,
+      "text": "A Song of Ascents. By David.    Yahweh, my heart isn’t haughty, nor my eyes lofty; nor do I concern myself with great matters, or things too wonderful for me."
+    },
+    {
+      "number": 2,
+      "text": "Surely I have stilled and quieted my soul, like a weaned child with his mother, like a weaned child is my soul within me."
+    },
+    {
+      "number": 3,
+      "text": "Israel, hope in Yahweh, from this time forward and forever more."
+    }
+  ],
+  "footnotes": [
+    {
+      "verse": 1,
+      "content": "",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    }
+  ]
+}
