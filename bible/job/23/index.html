@@ -44,13 +44,14 @@ footer a{color:var(--accent);text-decoration:none;}
 </style>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Chapter", "name": "Job 23", "description": "Read Job Chapter 23 in the Rooted Daily Bible (LLT).", "url": "https://llt.rootedapp.space/bible/job/23/", "isPartOf": {"@type": "Book", "name": "Job", "url": "https://llt.rootedapp.space/bible/job/"}}</script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://llt.rootedapp.space"}, {"@type": "ListItem", "position": 2, "name": "Bible", "item": "https://llt.rootedapp.space/bible/"}, {"@type": "ListItem", "position": 3, "name": "Job", "item": "https://llt.rootedapp.space/bible/job/"}, {"@type": "ListItem", "position": 4, "name": "Job 23", "item": "https://llt.rootedapp.space/bible/job/23/"}], "potentialAction": {"@type": "ReadAction", "target": "https://llt.rootedapp.space/bible"}}</script>
-  <link rel="stylesheet" href="assets/css/heirloom.css">
+  
   <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="LLT Bible">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta property="og:site_name" content="Rooted Daily">
   <meta name="twitter:image" content="https://llt.rootedapp.space/assets/images/favicon.png">
+  <link rel="stylesheet" href="../../../assets/css/heirloom.css">
 </head>
 <body>
   <div class="container">
@@ -108,6 +109,21 @@ footer a{color:var(--accent);text-decoration:none;}
       <p>&copy; 2026 PacMac Mobile LLC · <a href="/bible/">Browse Bible</a> · <a href="/sitemap.xml">Sitemap</a></p>
     </footer>
   </div>
-  <script src="assets/js/translation-switcher.js" defer></script>
+
+  <!-- Verse Sheet (Bottom Pop-up) -->
+  <div id="verse-sheet" class="verse-sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-actions-top">
+      <button class="sheet-action-btn" id="sheet-copy" title="Copy"><i class="icon-copy"></i> Copy</button>
+      <button class="sheet-action-btn" id="sheet-share" title="Share"><i class="icon-share"></i> Share</button>
+      <button class="sheet-action-btn" id="sheet-highlight" title="Highlight"><i class="icon-highlighter"></i> Highlight</button>
+      <button class="sheet-action-btn" id="sheet-save" title="Save to Journal"><i class="icon-bookmark"></i> Save</button>
+    </div>
+    <div id="sheet-content"></div>
+  </div>
+  <div id="sheet-overlay" class="sheet-overlay"></div>
+
+  <script src="../../../assets/js/translation-switcher.js" defer></script>
+  <script src="../../../assets/js/bible-reader.js" defer></script>
 </body>
 </html>

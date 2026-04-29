@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Reflection | Rooted Daily LLT</title>
+  <meta name="description" content="Read this community reflection on Scripture from the Living Legacy Translation.">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/heirloom.css">
+  <style>
+    :root {
+      --bg: #fdf6ec;
+      --text: #2c1f0e;
+      --accent: #3d6b4f;
+      --secondary: #6b5040;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', serif;
+      line-height: 1.8;
+      padding: 2rem;
+    }
+    .note-container {
+      max-width: 600px;
+      margin: 4rem auto;
+      background: #fff;
+      padding: 3rem;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border: 1px solid #e8e0d5;
+    }
+    .verse-ref {
+      font-weight: 700;
+      color: var(--accent);
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      display: block;
+      text-decoration: none;
+    }
+    .note-content {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      white-space: pre-wrap;
+    }
+    .footer {
+      border-top: 1px solid #eee;
+      padding-top: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--secondary);
+    }
+    .btn-read {
+      display: inline-block;
+      margin-top: 2rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+      border-bottom: 2px solid var(--accent);
+    }
+    #loading { text-align: center; margin-top: 5rem; }
+  </style>
+</head>
+<body>
+
+  <div id="loading">Loading community reflection...</div>
+
+  <div class="note-container" id="note-view" style="display: none;">
+    <a href="#" class="verse-ref" id="ref-link"></a>
+    <div class="note-content" id="content"></div>
+    <div class="footer">
+      Shared by a Rooted Daily member
+    </div>
+    <a href="/bible/" class="btn-read">Read the Full Chapter →</a>
+  </div>
+
+  <script>
+    const SUPABASE_URL = 'https://xphxtkdsshqsddajzlkj.supabase.co';
+    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhwaHh0a2Rzc2hxc2RkYWp6bGtqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU4Mzg1MzksImV4cCI6MjA5MTQxNDUzOX0.zkXqNnFkOxkYEkQh8pYpsfUMdJMd8ri_Bta5_Jn_8lg';
+
+    async function loadNote() {
+      const path = window.location.pathname;
+      const noteId = path.split('/').pop();
+      
+      if (!noteId || noteId === 'note.html') {
+          document.getElementById('loading').textContent = 'Note not found.';
+          return;
+      }
+
+      try {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/journal?id=eq.${noteId}&select=*`, {
+          headers: { 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}` }
+        });
+        const [note] = await res.json();
+
+        if (note) {
+          document.getElementById('ref-link').textContent = note.verse_ref;
+          // Determine book/chapter from ref (simplistic)
+          // For now just link to the main bible reader
+          document.getElementById('ref-link').href = `/bible/`; 
+          document.getElementById('content').textContent = note.content;
+          
+          document.getElementById('loading').style.display = 'none';
+          document.getElementById('note-view').style.display = 'block';
+        } else {
+          document.getElementById('loading').textContent = 'Note not found.';
+        }
+      } catch (err) {
+        console.error(err);
+        document.getElementById('loading').textContent = 'Error loading note.';
+      }
+    }
+
+    loadNote();
+  </script>
+</body>
+</html>

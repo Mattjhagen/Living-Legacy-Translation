@@ -1,121 +1,110 @@
-#!/usr/bin/env python3
-"""
-Inject heirloom CSS, Caveat font, and translation switcher JS
-into all chapter-level HTML pages.
-
-Adds:
-  - Google Fonts: Caveat (handwritten font for footnotes)
-  - assets/css/heirloom.css (heirloom styles)
-  - assets/js/translation-switcher.js (client-side switcher)
-  - data attributes for book slug and chapter number
-
-Only targets chapter pages (bible/{book}/{chapter}/index.html),
-not the book index pages or root pages.
-"""
-
 import os
 import re
+
+# This script scans the bible/ directory and injects the Heirloom study sheet 
+# and necessary scripts into every chapter's index.html.
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BIBLE_DIR = os.path.join(BASE_DIR, "bible")
 
-# Assets to inject (using base href="/", so paths are from root)
+# Assets to inject (using relative paths for local/sub-path compatibility)
+# Since chapters are at bible/book/chapter/index.html, we need ../../../ to reach assets/
+SUPABASE_JS = '<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>'
+REL_PREFIX = "../../../"
 CAVEAT_FONT = '<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">'
-HEIRLOOM_CSS = '<link rel="stylesheet" href="assets/css/heirloom.css">'
-SWITCHER_JS = '<script src="assets/js/translation-switcher.js" defer></script>'
+HEIRLOOM_CSS = f'<link rel="stylesheet" href="{REL_PREFIX}assets/css/heirloom.css">'
+READER_JS = f'<script src="{REL_PREFIX}assets/js/bible-reader.js" defer></script>'
+SWITCHER_JS = f'<script src="{REL_PREFIX}assets/js/translation-switcher.js" defer></script>'
 
-def get_book_slug_and_chapter(html_path):
-    """Extract book slug and chapter from the file path."""
-    # path: .../bible/{book-slug}/{chapter}/index.html
-    parts = html_path.replace(BIBLE_DIR, '').strip('/').split('/')
-    if len(parts) >= 2:
-        book_slug = parts[0]
-        try:
-            chapter = int(parts[1])
-            return book_slug, chapter
-        except ValueError:
-            return None, None
-    return None, None
+VERSE_SHEET_HTML = """
+  <!-- Verse Sheet (Bottom Pop-up) -->
+  <div id="verse-sheet" class="verse-sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-actions-top">
+      <button class="sheet-action-btn" id="sheet-copy" title="Copy"><i class="icon-copy"></i> Copy</button>
+      <button class="sheet-action-btn" id="sheet-share" title="Share"><i class="icon-share"></i> Share</button>
+      <button class="sheet-action-btn" id="sheet-highlight" title="Highlight"><i class="icon-highlighter"></i> Highlight</button>
+      <button class="sheet-action-btn" id="sheet-save" title="Save to Journal"><i class="icon-bookmark"></i> Save</button>
+    </div>
+    <div id="sheet-content"></div>
+  </div>
+  <div id="sheet-overlay" class="sheet-overlay"></div>
+"""
 
-
-def inject_into_chapter(html_path, book_slug, chapter):
-    """Inject assets into a chapter HTML file."""
+def clean_and_inject(html_path, book_slug, chapter):
     with open(html_path, 'r', encoding='utf-8') as f:
         content = f.read()
-    
+
     modified = False
-    
-    # 1. Inject Caveat font (after existing Lora font link)
-    if 'Caveat' not in content:
-        content = content.replace(
-            'family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">',
-            'family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">\n  ' + CAVEAT_FONT
-        )
+
+    # 1. Ensure Caveat font is in <head>
+    if 'fonts.googleapis.com/css2?family=Caveat' not in content:
+        content = content.replace('</head>', f'  {CAVEAT_FONT}\n</head>')
         modified = True
-    
-    # 2. Inject heirloom CSS (before </head>)
-    if 'heirloom.css' not in content:
-        content = content.replace('</head>', '  ' + HEIRLOOM_CSS + '\n</head>')
+
+    # 2. Ensure HEIRLOOM_CSS is in <head> (remove old/incorrect versions)
+    if HEIRLOOM_CSS not in content:
+        # Remove any existing heirloom.css link (absolute or relative)
+        content = re.sub(r'<link rel="stylesheet" href="[^"]*heirloom\.css">', '', content)
+        content = content.replace('</head>', f'  {HEIRLOOM_CSS}\n</head>')
         modified = True
-    
-    # 3. Inject switcher JS (before </body>)
-    if 'translation-switcher.js' not in content:
-        content = content.replace('</body>', '  ' + SWITCHER_JS + '\n</body>')
+
+    # 3. Ensure VERSE_SHEET_HTML and scripts are at the end of <body>
+    if READER_JS not in content or VERSE_SHEET_HTML not in content:
+        # Remove old versions of these scripts
+        content = re.sub(r'<script src="[^"]*translation-switcher\.js".*?></script>', '', content)
+        content = re.sub(r'<script src="[^"]*bible-reader\.js".*?></script>', '', content)
+        # Remove old verse sheet if exists
+        content = re.sub(r'<!-- Verse Sheet.*?-->.*?<div id="verse-sheet".*?</div>.*?<div id="sheet-overlay".*?</div>', '', content, flags=re.DOTALL)
+        
+        # Inject new bundle
+        content = content.replace('</body>', f'\n  {VERSE_SHEET_HTML}\n  {SWITCHER_JS}\n  {READER_JS}\n</body>')
         modified = True
-    
-    # 4. Add data attributes to verse container for JS to pick up
+
+    # 4. Ensure verse-container has data attributes
     if 'data-book-slug' not in content:
-        # Add data attributes to the verse-container div
-        content = content.replace(
-            '<div class="verse-container">',
-            '<div class="verse-container" data-book-slug="' + book_slug + '" data-chapter="' + str(chapter) + '">'
-        )
-        # Also try the class with quotes variation
-        content = content.replace(
-            "class=\"verse-container\">",
-            'class="verse-container" data-book-slug="' + book_slug + '" data-chapter="' + str(chapter) + '">',
+        # Handle variations of verse-container class
+        content = re.sub(
+            r'<div class=["\']verse-container["\']>',
+            f'<div class="verse-container" data-book-slug="{book_slug}" data-chapter="{chapter}">',
+            content
         )
         modified = True
-    
+
     if modified:
+        # Clean up any excessive newlines
+        content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
         with open(html_path, 'w', encoding='utf-8') as f:
             f.write(content)
-    
+            
     return modified
 
-
 def main():
-    total = 0
+    processed = 0
     injected = 0
-    
-    for book_slug in sorted(os.listdir(BIBLE_DIR)):
-        book_dir = os.path.join(BIBLE_DIR, book_slug)
-        if not os.path.isdir(book_dir) or book_slug.startswith('.'):
-            continue
-        
-        for chapter_name in sorted(os.listdir(book_dir)):
-            chapter_dir = os.path.join(book_dir, chapter_name)
-            if not os.path.isdir(chapter_dir):
-                continue
-            
-            html_path = os.path.join(chapter_dir, 'index.html')
-            if not os.path.exists(html_path):
-                continue
-            
-            try:
-                chapter_num = int(chapter_name)
-            except ValueError:
-                continue
-            
-            total += 1
-            if inject_into_chapter(html_path, book_slug, chapter_num):
-                injected += 1
-            
-            if total % 200 == 0:
-                print(f"  Processed {total} chapters...")
-    
-    print(f"\nDone! Processed {total} chapter pages, injected into {injected}.")
 
+    if not os.path.exists(BIBLE_DIR):
+        print(f"Error: {BIBLE_DIR} not found.")
+        return
+
+    for book in os.listdir(BIBLE_DIR):
+        book_path = os.path.join(BIBLE_DIR, book)
+        if not os.path.isdir(book_path): continue
+        
+        for chapter in os.listdir(book_path):
+            chapter_path = os.path.join(book_path, chapter)
+            if not os.path.isdir(chapter_path): continue
+            
+            index_path = os.path.join(chapter_path, "index.html")
+            if os.path.exists(index_path):
+                try:
+                    if clean_and_inject(index_path, book, chapter):
+                        injected += 1
+                    processed += 1
+                except Exception as e:
+                    print(f"Error processing {index_path}: {e}")
+
+    print(f"Done! Processed {processed} chapters, updated {injected}.")
 
 if __name__ == "__main__":
     main()

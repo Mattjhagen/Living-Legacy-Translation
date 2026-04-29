@@ -55,7 +55,7 @@
   // ── Data Fetching ─────────────────────────────────────────────────────
   function fetchTranslationsIndex() {
     if (translationsIndex) return Promise.resolve(translationsIndex);
-    return fetch('/json/translations.json')
+    return fetch('../../../json/translations.json')
       .then(function (res) { return res.json(); })
       .then(function (data) { translationsIndex = data; return data; })
       .catch(function (e) { console.warn('Could not load translations index:', e); return null; });
@@ -64,7 +64,7 @@
   function fetchChapter(translationId, bookSlug, chapter) {
     var key = translationId + '/' + bookSlug + '/' + chapter;
     if (chapterCache[key]) return Promise.resolve(chapterCache[key]);
-    return fetch('/json/' + translationId + '/' + bookSlug + '/' + chapter + '.json')
+    return fetch('../../../json/' + translationId + '/' + bookSlug + '/' + chapter + '.json')
       .then(function (res) {
         if (!res.ok) return null;
         return res.json();
@@ -102,9 +102,11 @@
       });
     }
 
+
     data.verses.forEach(function (verse) {
       var div = document.createElement('div');
       div.className = 'verse';
+      if (currentTranslation === 'llt') div.classList.add('llt-mode');
 
       var numSpan = document.createElement('span');
       numSpan.className = 'verse-num';
@@ -117,40 +119,22 @@
       div.appendChild(numSpan);
       div.appendChild(textSpan);
 
-      // Add footnote indicator if LLT mode and verse has notes with content
-      var notes = footnoteMap[verse.number];
-      var hasNotes = notes && notes.some(function (n) { return n.content && n.content.trim() !== ''; });
+      var notes = footnoteMap[verse.number] || [];
+      var hasNotes = notes.some(function (n) { return n.content && n.content.trim() !== ''; });
 
-      if (currentTranslation === 'llt' && hasNotes) {
+      if (hasNotes) {
         div.classList.add('has-footnote');
-
         var indicator = document.createElement('span');
-        indicator.className = 'footnote-indicator';
+        indicator.className = 'fn-marker';
         indicator.textContent = '✦';
-        indicator.setAttribute('aria-label', 'View insight for verse ' + verse.number);
-        indicator.setAttribute('role', 'button');
-        indicator.setAttribute('tabindex', '0');
-
-        // Click to open bottom sheet
-        (function (verseNum, verseNotes) {
-          indicator.addEventListener('click', function (e) {
-            e.stopPropagation();
-            openFootnoteSheet(data.book, verseNum, verseNotes);
-          });
-          indicator.addEventListener('keydown', function (e) {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              e.stopPropagation();
-              openFootnoteSheet(data.book, verseNum, verseNotes);
-            }
-          });
-          div.addEventListener('click', function () {
-            openFootnoteSheet(data.book, verseNum, verseNotes);
-          });
-        })(verse.number, notes);
-
         textSpan.appendChild(indicator);
       }
+
+      // Open sheet on any verse click
+      div.style.cursor = 'pointer';
+      div.addEventListener('click', function() {
+        openFootnoteSheet(data.book, verse.number, verse.text, notes);
+      });
 
       container.appendChild(div);
     });
@@ -180,24 +164,43 @@
   var touchStartY = 0;
   var sheetTranslateY = 0;
 
+
   function createBottomSheet() {
-    // Overlay
+    // Check for existing elements (injected by script)
+    overlayEl = document.getElementById('sheet-overlay');
+    sheetEl = document.getElementById('verse-sheet');
+
+    if (overlayEl && sheetEl) {
+      overlayEl.addEventListener('click', closeFootnoteSheet);
+      var closeBtn = sheetEl.querySelector('.sheet-close');
+      if (closeBtn) closeBtn.addEventListener('click', closeFootnoteSheet);
+      
+      var handle = sheetEl.querySelector('.sheet-handle');
+      if (handle) {
+        handle.addEventListener('touchstart', onSheetTouchStart, { passive: true });
+        handle.addEventListener('touchmove', onSheetTouchMove, { passive: false });
+        handle.addEventListener('touchend', onSheetTouchEnd, { passive: true });
+      }
+      return;
+    }
+
+    // Otherwise create them
     overlayEl = document.createElement('div');
-    overlayEl.className = 'footnote-overlay';
+    overlayEl.className = 'sheet-overlay';
+    overlayEl.id = 'sheet-overlay';
     overlayEl.addEventListener('click', closeFootnoteSheet);
 
     // Sheet
     sheetEl = document.createElement('div');
-    sheetEl.className = 'footnote-sheet';
-    sheetEl.setAttribute('role', 'dialog');
-    sheetEl.setAttribute('aria-label', 'Verse insight');
+    sheetEl.className = 'verse-sheet';
+    sheetEl.id = 'verse-sheet';
     sheetEl.innerHTML =
-      '<div class="sheet-handle"><div class="sheet-handle-bar"></div></div>' +
-      '<div class="sheet-header">' +
-        '<span class="sheet-verse-ref"></span>' +
-        '<button class="sheet-close" aria-label="Close">&times;</button>' +
+      '<div class="sheet-handle"></div>' +
+      '<div class="sheet-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">' +
+        '<span class="sheet-verse-ref" style="font-family:var(--sans); font-weight:700; color:var(--accent); text-transform:uppercase; font-size:0.8rem; letter-spacing:0.1em;"></span>' +
+        '<button class="sheet-close" style="background:none; border:none; font-size:1.5rem; color:var(--secondary); cursor:pointer;">&times;</button>' +
       '</div>' +
-      '<div class="sheet-body"></div>';
+      '<div class="sheet-body" id="sheet-content"></div>';
 
     // Close button
     sheetEl.querySelector('.sheet-close').addEventListener('click', closeFootnoteSheet);
@@ -219,61 +222,100 @@
     document.body.appendChild(sheetEl);
   }
 
-  function openFootnoteSheet(bookName, verseNum, notes) {
+
+  function openFootnoteSheet(bookName, verseNum, verseText, notes) {
     if (!sheetEl) createBottomSheet();
 
     var ref = sheetEl.querySelector('.sheet-verse-ref');
-    ref.textContent = bookName + ' · Verse ' + verseNum;
+    ref.textContent = bookName + ' ' + verseNum;
 
     var body = sheetEl.querySelector('.sheet-body');
     body.innerHTML = '';
 
-    var hasContent = false;
-    notes.forEach(function (note) {
-      if (!note.content || note.content.trim() === '') return;
-      hasContent = true;
+    // Verse Text Display
+    var textDiv = document.createElement('div');
+    textDiv.className = 'sheet-verse-text-display';
+    textDiv.textContent = verseText;
+    body.appendChild(textDiv);
 
-      var noteDiv = document.createElement('div');
-      noteDiv.className = 'llt-footnote';
-      if (note.is_public === false) {
-        noteDiv.classList.add('personal-note');
+    // Share Actions
+    var actionsDiv = document.createElement('div');
+    actionsDiv.className = 'sheet-actions';
+    
+    var shareBtn = document.createElement('button');
+    shareBtn.className = 'sheet-action-btn';
+    shareBtn.innerHTML = '<span>🔗</span> Share';
+    shareBtn.onclick = function() {
+      if (navigator.share) {
+        navigator.share({
+          title: bookName + ' ' + verseNum,
+          text: '"' + verseText + '" — Rooted Daily Bible (LLT)',
+          url: window.location.href
+        });
+      } else {
+        copyToClipboard('"' + verseText + '"\n' + bookName + ' ' + verseNum + '\n' + window.location.href);
+        alert('Copied to clipboard!');
       }
+    };
 
-      // Subtle random tilt
-      var tilt = (Math.random() * 0.8 - 0.4).toFixed(2);
-      noteDiv.style.transform = 'rotate(' + tilt + 'deg)';
+    var copyBtn = document.createElement('button');
+    copyBtn.className = 'sheet-action-btn';
+    copyBtn.innerHTML = '<span>📋</span> Copy';
+    copyBtn.onclick = function() {
+      copyToClipboard('"' + verseText + '"\n' + bookName + ' ' + verseNum);
+      alert('Verse copied!');
+    };
 
-      var content = document.createElement('span');
-      content.className = 'llt-note-content';
-      content.textContent = note.content;
+    actionsDiv.appendChild(shareBtn);
+    actionsDiv.appendChild(copyBtn);
+    body.appendChild(actionsDiv);
 
-      var sig = document.createElement('span');
-      sig.className = 'llt-note-sig';
-      sig.textContent = '— ' + (note.author || 'LLT Insight') + ', ' + (note.year || '2026');
+    // Footnotes / Insights Section
+    if (notes && notes.length > 0) {
+      var notesHeader = document.createElement('div');
+      notesHeader.className = 'sheet-section-header';
+      notesHeader.textContent = 'Heirloom Insights';
+      body.appendChild(notesHeader);
 
-      noteDiv.appendChild(content);
-      noteDiv.appendChild(sig);
-      body.appendChild(noteDiv);
-    });
+      notes.forEach(function (note) {
+        if (!note.content || note.content.trim() === '') return;
 
-    if (!hasContent) {
-      body.innerHTML =
-        '<div class="sheet-empty">' +
-          '<div class="sheet-empty-icon">📜</div>' +
-          '<p>No insights for this verse yet.</p>' +
-        '</div>';
+        var noteDiv = document.createElement('div');
+        noteDiv.className = 'llt-footnote';
+        
+        var content = document.createElement('span');
+        content.className = 'llt-note-content';
+        content.textContent = note.content;
+
+        var sig = document.createElement('span');
+        sig.className = 'llt-note-sig';
+        sig.textContent = '— ' + (note.author || 'LLT Insight') + ', ' + (note.year || '2026');
+
+        noteDiv.appendChild(content);
+        noteDiv.appendChild(sig);
+        body.appendChild(noteDiv);
+      });
     }
 
     // Open with animation
-    overlayEl.classList.add('open');
-    sheetEl.classList.add('open');
+    overlayEl.classList.add('active');
+    sheetEl.classList.add('active');
     document.body.style.overflow = 'hidden';
+  }
+
+  function copyToClipboard(text) {
+    var el = document.createElement('textarea');
+    el.value = text;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
   }
 
   function closeFootnoteSheet() {
     if (!sheetEl) return;
-    overlayEl.classList.remove('open');
-    sheetEl.classList.remove('open');
+    overlayEl.classList.remove('active');
+    sheetEl.classList.remove('active');
     sheetEl.style.transform = '';
     document.body.style.overflow = '';
   }
