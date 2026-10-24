@@ -1,1 +1,1333 @@
-{"completedBooks": [], "completedChapters": {"1 Timothy": [1, 2, 3, 4, 5, 6]}}
+{
+  "completedBooks": [
+    "1 Timothy",
+    "Genesis",
+    "Joshua"
+  ],
+  "completedChapters": {
+    "1 Timothy": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Genesis": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "Joshua": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "skipped": {
+    "Genesis": [
+      {
+        "chapter": 41,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 42,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 43,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 44,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 45,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 46,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 47,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 48,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 49,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 50,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Exodus": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 25,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 26,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 27,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 28,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 29,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 30,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 31,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 32,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 33,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 34,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 35,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 36,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 37,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 38,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 39,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 40,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Leviticus": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 25,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 26,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 27,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Numbers": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 25,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 26,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 27,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 28,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 29,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 30,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 31,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 32,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 33,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 34,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 35,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 36,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Deuteronomy": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 25,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 26,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 27,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 28,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 29,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 30,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 31,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 32,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 33,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 34,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Joshua": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Judges": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "Ruth": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mRead data/insights/_progress.json \n\u001b[0m\u2192 \u001b[0mRead json/llt/ruth/2.json \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or sub"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mRead data/insights/_progress.json \n\u001b[0m\u2192 \u001b[0mRead json/llt/ruth/3.json \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or sub"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mSkill \"amazon-bedrock\" \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch m"
+      }
+    ],
+    "1 Samuel": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mSkill \"amazon-bedrock\" \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch m"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mRead json/llt/1-samuel/2.json \n\u001b[0m$ \u001b[0mls /home/matt/PurePulse/Rooted-Daily-static-site/Living-Legacy-Translation/data/insights/ | head -50; echo \"---\"; ls /home/"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mRead json/llt/1-samuel/3.json \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or s"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mRead json/llt/1-samuel/4.json \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or s"
+      },
+      {
+        "chapter": 5,
+        "error": "Temp file not created"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[0m\u2192 \u001b[0mRead json/llt/1-samuel/6.json \n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or s"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 25,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 26,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 27,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 28,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 29,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 30,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 31,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "2 Samuel": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "1 Kings": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "2 Kings": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 17,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 18,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 19,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 20,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 21,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 22,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 23,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 24,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 25,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ],
+    "1 Chronicles": [
+      {
+        "chapter": 1,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 2,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 3,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 4,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 5,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 6,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 7,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 8,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 9,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 10,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 11,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 12,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 13,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 14,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 15,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      },
+      {
+        "chapter": 16,
+        "error": "opencode failed with code 1: \u001b[0m\n> build \u00b7 big-pickle\n\u001b[91m\u001b[1mError: \u001b[0mFree usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.\n"
+      }
+    ]
+  }
+}
