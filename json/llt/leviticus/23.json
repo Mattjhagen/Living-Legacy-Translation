@@ -187,7 +187,351 @@
   "footnotes": [
     {
       "verse": 1,
-      "content": "",
+      "content": "The Lord speaks to Moses about time itself—not random days, but marked days. When God names what matters, He gives His people a rhythm to follow.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 2,
+      "content": "These are 'set feasts'—boundaries God draws around holy time. Notice how the Lord calls them 'my feasts,' not the people's. Even our worship belongs to Him.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 3,
+      "content": "The Sabbath sits here at the heart—every seventh day, work stops, and rest becomes holy. In a world that never sleeps, God still teaches: you are more than what you produce.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 4,
+      "content": "Each feast comes in its 'appointed season.' God doesn't rush His people; He writes their worship into the very fabric of the year, making grace rhythmic and sure.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 5,
+      "content": "Passover, on the fourteenth evening—every year, the people remember being passed over, spared from death. That mercy is never old; it's retold in every generation.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 6,
+      "content": "Seven days of unleavened bread follow the Passover lamb. Haste and hurry belong to the old Egypt; here, the people learn to eat bread without the leaven of their old ways.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 7,
+      "content": "The first day is 'holy convocation'—the work stops, the people gather. There's wisdom in stopping together, remembering together, who you are together.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 8,
+      "content": "Even in the feast week, three days are marked for holy rest—the first and seventh especially. God's people learn that freedom doesn't mean endless motion; it means His rhythm.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 9,
+      "content": "Again, the Lord speaks to Moses. Each feast receives its own careful word. When God details what He treasures, He shows us what to treasure too.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 10,
+      "content": "The sheaf of first fruits—the harvest begins, but not for the people first. The priest brings the first bite to the Lord. Giving God the first teaches the giver: all is His gift.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 11,
+      "content": "The priest waves the sheaf 'to be accepted for you.' Someone stands between, lifting what grows from the earth, asking the Lord to see it through their hands. Intercession is ancient.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 12,
+      "content": "A young lamb, whole and without defect—the first fruits need first sacrifice. The Lord doesn't ask for scraps; He asks for what costs, which shows He's worth it.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 13,
+      "content": "Flour mingled with oil, wine poured out—each offering has its precise form, its meal and its drink. Worship isn't sloppy; detail itself becomes love's language.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 14,
+      "content": "No one eats the new grain until the offering is made—hunger must wait. This statute teaches the young what the old know: there is an order to blessing, and patience honors it.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 15,
+      "content": "Fifty days counted from sheaf to Pentecost—a week of weeks. This is math made holy, turning calendar pages into spiritual arithmetic.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 16,
+      "content": "After those fifty days, another offering appears: a new meal offering. The cycle turns; the Lord keeps drawing His people to times of remembrance and gift.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 17,
+      "content": "Two loaves baked with yeast—unusual in offerings. This bread rises; it's living, active. Pentecost celebrates the Lord at work in the people, the harvest made grain made bread.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 18,
+      "content": "Seven lambs, one bull, two rams—the number seven marks it as God's feast, the offerings speak of power and sacrifice. The Lord welcomes His people with abundance.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 19,
+      "content": "A sin offering and peace offerings sit side by side—acknowledging failure and sealing reconciliation. Before the feast meal, the people are made clean.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 20,
+      "content": "The priest waves the offerings—they become the priest's portion. Those who serve the altar eat from it. The Lord feeds His servants from His own table.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 21,
+      "content": "Proclamation, rest, no work—the feast day itself declares the Lord's character. Stopping work becomes testimony; rest becomes praise.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 22,
+      "content": "Even in the feast, the poor are remembered—leave the corners, gather no gleanings. The Lord's generosity to His people overflows to those who have little. Grace multiplies when shared.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 23,
+      "content": "The Lord speaks again to Moses, turning now to the seventh month. After spring feasts comes autumn's remembrance—He doesn't let His people forget the whole year belongs to Him.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 24,
+      "content": "The feast of trumpet blasts—a 'memorial of blowing.' Sound carries across a distance; it gathers scattered people, calls them home. The Lord's voice still summons.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 25,
+      "content": "No work, but an offering by fire—even the day of trumpet calls is marked by gift. The Lord doesn't ask His people to simply stop; He bids them to give.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 26,
+      "content": "Again, the Lord speaks. The feasts build in rhythm, each word from His mouth deepening how the people understand His character—careful, intentional, close.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 27,
+      "content": "The Day of Atonement, the tenth of the seventh month—'you shall afflict yourselves.' This is the feast where sorrow and healing meet, where a people faces what separates them from God.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 28,
+      "content": "No work at all—the whole day stands still before God. On this day, the people learn that standing before the Lord means stopping everything else; that is the whole of it.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 29,
+      "content": "To refuse to afflict oneself, to refuse the fast—this cuts one off from the people. Rejecting the day of reconciliation means rejecting the community it heals. We belong or we don't.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 30,
+      "content": "The warning is severe: anyone who works on this day 'shall be destroyed from among his people.' The Lord takes this day seriously—not as rule, but as the hinge where His people turn back to Him.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 31,
+      "content": "This statute, forever and everywhere—Atonement Day doesn't fade with time or distance. In every generation, in every dwelling, the people return to the place where they are reconciled.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 32,
+      "content": "Evening to evening—the Sabbath of Atonement crosses a whole day and night. From dusk to dusk, the people rest in the shadow of forgiveness. Even time itself bends toward healing.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 33,
+      "content": "The Lord speaks to Moses once more. The feasts arrive in layers—first reconciliation, then joy. The Lord's way is to bring His people home before He bids them celebrate.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 34,
+      "content": "The Feast of Tents, seven days in the seventh month—a dwelling made of branches, a remembrance made concrete. The people live as their ancestors lived, not in stone but in memory.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 35,
+      "content": "The first day is holy convocation, no work—the feast begins in rest. Before the celebration begins, the people stop and gather, centering on the Lord.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 36,
+      "content": "Seven days of offerings, an eighth day of solemn assembly—the feast doesn't end in exhaustion but in another holy convocation. Joy itself closes in reverence.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 37,
+      "content": "These appointed feasts gather the whole offering: burnt, meal, sacrifice, drink—each one a language the people speak to say 'You are God.' The vocabulary of worship is rich.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 38,
+      "content": "Beside the Sabbaths, the gifts, the vows, the freewill offerings—the feasts don't replace devotion; they frame it, contain it, make room for it. Worship builds on worship.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 39,
+      "content": "The Feast of Tents comes 'when you have gathered in the fruits'—not before, not in hope, but after harvest, in gratitude. The Lord's feasts teach: first the work, then the thanks.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 40,
+      "content": "Palm fronds, thick boughs, willows—the people decorate their tents with branches, turning dwellings into gardens. Even temporary shelter becomes a place of beauty when made for joy.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 41,
+      "content": "The Feast of Tents is kept in the seventh month, forever—each year, the people remember they were tent-dwellers, strangers, pilgrims. This feast says: you belong to the Lord, not to any place.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 42,
+      "content": "Seven days dwelling in temporary shelters—for one week, the people trade their houses for branches. They learn again: homes are real, but they are not forever.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 43,
+      "content": "The reason: 'I made the children of Israel to dwell in tents when I brought them out of Egypt.' This feast is not ritual; it is memory, annually renewed. The Lord is the God who brought you out.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 44,
+      "content": "Moses declares all these feasts to Israel—he speaks the Lord's word into the people's calendar. When God's word is spoken aloud by His servant, the year itself becomes instruction.",
       "author": "LLT Insight",
       "year": 2026,
       "is_public": true,

@@ -223,7 +223,423 @@
   "footnotes": [
     {
       "verse": 1,
-      "content": "",
+      "content": "Old age comes for us all, and with it a cold that no blanket can fix. David's days of conquest are behind him now, his vigor spent. Yet the Lord still holds His king in the palm of His hand.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 2,
+      "content": "The advisors reach for the simplest remedy—a young woman's warmth. How often do we seek comfort in gentle, earthly things when our real need is deeper still.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 3,
+      "content": "Abishag of Shunem was chosen from across all Israel—the search itself speaks to David's honor, even in weakness. The Lord's servant, though diminished, was still honored by his people.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 4,
+      "content": "There is a dignity in this care: Abishag served a frail man without taking from him what the covenant had held sacred. Even in our weakness, the Lord preserves what is His.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 5,
+      "content": "Adonijah sees an old man and sees an opening. Ambition whispers its old song: *I will be king.* But the throne is not ours to seize—it is the Lord's gift to give.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 6,
+      "content": "A handsome son who was never told 'no'—this too is a kind of poverty. Without the shaping grace of a father's boundary, a child grows bent toward his own will.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 7,
+      "content": "Joab and Abiathar circle the young prince. Power recognizes power, and the ambitious find ready allies. One man's ambition becomes two men's rebellion.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 8,
+      "content": "Zadok the priest, Nathan the prophet, Benaiah the mighty man—these stood apart, true to their oath and their God. Loyalty is its own kind of strength.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 9,
+      "content": "Adonijah throws a feast by the stone of Zoheleth, near En Rogel, gathering the king's sons and the men of Judah. The theater of rebellion: good food, many witnesses, a crown already worn in the heart.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 10,
+      "content": "But Solomon is not called. Neither the prophet Nathan, nor Benaiah the faithful, nor the mighty men of David. The omission itself speaks—Adonijah's rebellion excludes all who might stand in his way.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 11,
+      "content": "Nathan sees what is hidden and acts. The prophet carries a burden the priest does not: he must speak truth even when it unsettles the powerful.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 12,
+      "content": "Nathan comes to Bathsheba, Solomon's mother, with counsel born of urgency: save your life and your son's. The stakes are clear and high.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 13,
+      "content": "Nathan reminds Bathsheba of David's oath: Solomon *shall* reign. An oath made, a promise sworn to the Lord. Now it must be remembered and claimed.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 14,
+      "content": "Nathan's plan: Bathsheba will speak first, then he will come and confirm. Two witnesses to a truth that must be declared. There is wisdom in speaking together when silence means death.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 15,
+      "content": "Bathsheba enters the chamber where David lies, and Abishag is still there, serving. Even in age, even amid the whispering of the court, David remains the king.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 16,
+      "content": "Bathsheba bows low, showing the respect due a king. Courtesy is not weakness; it is the language of a heart that knows how to approach power with honor.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 17,
+      "content": "She speaks his oath back to him: Solomon *shall* reign, and sit on the throne. Words from a woman who remembered this promise when the king himself may have forgotten.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 18,
+      "content": "But now Adonijah reigns, she says, and the king does not know. A careful, respectful telling of what has been hidden. The king has been kept in the dark by his own court.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 19,
+      "content": "Adonijah has slain cattle and sheep in abundance, and called the king's sons and the priests and Joab. But Solomon—the one promised—is not there. The feast itself is an act of rebellion.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 20,
+      "content": "All Israel looks to you, she says. The king's word shapes the kingdom. His choice is no small thing—it is a word spoken into the future of an entire people.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 21,
+      "content": "When you sleep with your fathers, she warns, Solomon and I will be counted as criminals. Death brings its own clarity: what the king decrees today will define her tomorrow.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 22,
+      "content": "As Bathsheba speaks, Nathan appears at the door. God's timing is woven into human timing—the prophet arrives just as the word is being spoken.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 23,
+      "content": "They announce Nathan's arrival. He enters, bows before the king—respect for the throne even as he carries a word that challenges the court's silence.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 24,
+      "content": "Nathan asks directly: Did you say Adonijah will reign? The prophet speaks truth as a question, drawing out the king's own memory of what he has sworn.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 25,
+      "content": "He describes the rebellion plainly: the feast, the slaughter, the shout—*Long live king Adonijah!* The feast is not a celebration; it is a coup dressed as a party.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 26,
+      "content": "But I am not called, Nathan says. Neither the faithful priests nor Benaiah nor Solomon. By their absence, the rebellious son reveals his fear.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 27,
+      "content": "Nathan's question is terrible and beautiful: Did you do this without telling your servants who will sit on your throne? He names the silence as a sin of omission.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 28,
+      "content": "David's answer is swift: Call Bathsheba. The king wakes, it seems, and reclaims his throne by reclaiming his will. She enters and stands before him.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 29,
+      "content": "David swears by the living God who has redeemed his soul from all adversity. He speaks from the depth of a life lived and a God honored.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 30,
+      "content": "The king repeats his oath: Solomon shall reign and sit on my throne *in my place*. Not after, but *now*—David declares the succession in his lifetime.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 31,
+      "content": "Bathsheba bows and speaks a blessing: *Let my lord king David live forever!* She honors him with words, though both know the years are short.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 32,
+      "content": "Call to me Zadok, Nathan, and Benaiah—the three who stood apart. David chooses the faithful to carry out his will, the ones who never wavered.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 33,
+      "content": "Take Solomon on my own mule and bring him down to Gihon. The king gives his son his own beast, his own authority made visible. It is an act of investiture.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 34,
+      "content": "Anoint him king there at Gihon—the spring of Jerusalem, a place of water and life. Blow the trumpet, cry out: *Long live king Solomon!* Let the people hear and know.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 35,
+      "content": "He shall sit on my throne, and reign in my place, David declares. This is not a distant inheritance but an immediate claim, a kingdom received while the father still breathes.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 36,
+      "content": "Benaiah's answer is swift: *Amen.* The mighty man blesses the king's word, joining his strength to the throne's will. Loyalty spoken aloud is its own kind of power.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 37,
+      "content": "May the God of David be with Solomon, Benaiah prays, and make his throne greater than yours. He asks not for the son to replace the father, but to build on what the father has left.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 38,
+      "content": "The Cherethites and Pelethites—David's own guard—go down with Solomon to Gihon. The king's loyal men now serve the king's son. Continuity is secured by loyalty.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 39,
+      "content": "Zadok takes the horn of oil from the Tent and anoints Solomon. Oil upon oil—the sign of God's choosing, visible and real. The trumpet sounds. *Long live king Solomon!* the people shout.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 40,
+      "content": "The people come up after him, playing pipes, rejoicing with great joy. The earth shakes with their sound. Joy is the earth's response to a true king rightly chosen.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 41,
+      "content": "At Adonijah's feast, the sound of the trumpet reaches their ears. They know, in that moment, what the noise means: the kingdom has slipped from his grasp.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 42,
+      "content": "Jonathan the priest's son arrives. Adonijah, with a dying hope, calls him in—surely he brings good news. But hope built on ambition is a hollow thing.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 43,
+      "content": "Jonathan speaks plainly: Our lord king David has made Solomon king. The word is already done, the oath already fulfilled. What seemed near is suddenly distant.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 44,
+      "content": "Zadok, Nathan, Benaiah, and the king's guard rode with him, Jonathan says. The authorities of the kingdom itself have moved to Solomon's side. Rebellion, seen so plainly, becomes futile.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 45,
+      "content": "Zadok and Nathan have anointed him king in Gihon, Jonathan reports. They have come up rejoicing; the city rings with the sound. The deed is done and declared and celebrated.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 46,
+      "content": "Solomon now sits on the throne of the kingdom. The fact is simple and total. Not shall be, but *is*. Anointing has made it real.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 47,
+      "content": "The king's servants come to bless David, saying: May God make Solomon's name better than yours, and his throne greater. Even as David releases the crown, he receives the blessing of his servants' respect.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 48,
+      "content": "David bows on his bed and gives thanks: *Blessed be the God of Israel, who has given me one to sit on my throne, my eyes even seeing it.* He sees the future secured and gives glory to God.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 49,
+      "content": "Adonijah's guests, seized by fear, scatter and each goes his own way. The feast that promised a kingdom becomes an image of the kingdom broken. Ambition finds few willing to fall with it.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 50,
+      "content": "Adonijah flees to the altar and grasps its horns—a gesture of asylum in Israel's law. Even a rebellious son knows where mercy might be found, though he struck at the throne itself.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 51,
+      "content": "Word reaches Solomon: your brother hangs on the altar horns, begging for his life. The rebel has become a suppliant. Everything turns on how the new king will answer.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 52,
+      "content": "Solomon's answer: *If he shows himself worthy, he lives; if wickedness is found in him, he dies.* The young king speaks not from vengeance but from justice—a hard mercy.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 53,
+      "content": "Solomon sends men to bring Adonijah down; his brother bows to the new king. Readers today hear an echo: how often the Lord brings us low precisely so we might bow to His rule and find our life in submission, not in the throne we thought we deserved.",
       "author": "LLT Insight",
       "year": 2026,
       "is_public": true,

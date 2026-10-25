@@ -317,10 +317,11 @@ body.llt-mode .verse-container {
     color: var(--accent);
 }
 
-.footnote-content {
-    font-family: 'Caveat', cursive;
-    font-size: 1.3rem;
-    line-height: 1.4;
+.footnote-item .footnote-content {
+    font-family: var(--font, 'Lora', Georgia, serif) !important;
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+    font-style: normal !important;
     color: var(--text);
 }
 
@@ -444,10 +445,10 @@ body.llt-mode .verse-container {
 
 /* ── Heirloom Footnote Card ───────────────────────────────────────────── */
 .llt-footnote {
-  font-family: 'Caveat', cursive;
-  font-size: 1.15rem;
+  font-family: var(--font, 'Lora', Georgia, serif);
+  font-size: 1.05rem;
   color: #34495e;
-  line-height: 1.45;
+  line-height: 1.6;
   padding: 1rem 1.2rem;
   border-left: 2.5px solid rgba(139, 69, 19, 0.3);
   background-color: rgba(253, 247, 231, 0.7);
@@ -457,7 +458,7 @@ body.llt-mode .verse-container {
   /* Paper texture */
   background-image:
     linear-gradient(to bottom, rgba(139, 69, 19, 0.01) 0%, transparent 3px);
-  background-size: 100% 1.45em;
+  background-size: 100% 1.6em;
 }
 
 .llt-footnote:last-child {

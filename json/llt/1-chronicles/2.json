@@ -231,7 +231,351 @@
   "footnotes": [
     {
       "verse": 1,
-      "content": "",
+      "content": "The chronicler names the twelve sons of Israel—not by their own strength, but as the Lord's chosen family. Notice how he keeps the lineage in order, showing us that genealogies matter in God's kingdom.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 1,
+      "content": "Readers today hear an echo in this genealogy: the Lord does not forget. In a world where names are lost and stories are erased, this chapter proclaims that God remembers every life, every covenant-keeper, every child of His promise. We, too, are written in His book.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 2,
+      "content": "Six more sons complete the list—and in them are all the tribes that will carry God's covenant into the future. Each name represents a family that God will work through in ways they never imagined.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 3,
+      "content": "Here we see Judah's sons through a Canaanite woman, yet the record does not shy from the judgment: Er was wicked, and the Lord took him. Even in the chosen line, God's justice is swift and true.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 4,
+      "content": "Tamar, a daughter-in-law who had to demand justice, bore the sons that carried the Davidic line. Sometimes the Lord works through a woman's quiet courage when men look away.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 5,
+      "content": "From Perez—whose name means \"breaking through\"—came Hezron and Hamul. The Lord often chooses names that point to His purposes: even a breach can become a blessing.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 6,
+      "content": "Zerah's line included men of renown—Ethan, Heman—whose names appear in the Psalms as wise men and singers. In God's house, musicians and thinkers have their place.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 7,
+      "content": "Achar earned the name \"troubler of Israel\"—his theft of devoted things brought judgment on all his people. One person's betrayal of covenant can reach far beyond their own life.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 8,
+      "content": "A single son, Azariah, carries forward the line of Ethan. Sometimes the narrowest branch proves crucial to God's design.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 9,
+      "content": "From Hezron came three sons: Jerahmeel, Ram, and Chelubai. The Lord divides inheritances so that multiple branches bear witness to His care.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 10,
+      "content": "Through Ram came Amminadab, Nahshon (a prince), Salma, Boaz, and Obed. In this line walks Boaz—a man of honor who loved a foreigner with covenant kindness. These are links in the chain that leads to David, and through David to the King of kings.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 13,
+      "content": "Jesse was the father of seven sons, but the seventh one—David—was the least valued. The Lord often chooses the overlooked one, the one tending sheep while others gathered at the feast. From the youngest, the anointed king came.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 16,
+      "content": "David's sisters, Zeruiah and Abigail, mothered men of war and wisdom. In God's economy, a woman's strength often shapes the strength of her sons—and the chronicler records her name with honor.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 18,
+      "content": "Caleb married twice: first Azubah, then Ephrath. His life spans generations and journeys; he knew the Lord's faithfulness across decades. After loss, he loved again—a quiet picture of resilience in God.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 20,
+      "content": "From Hur came Uri, and from Uri came Bezalel—the master craftsman who built the Tabernacle. God's artisans carry His vision just as prophets do.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 21,
+      "content": "Hezron took a wife at sixty years old and became a father still. The Lord's mercies are new each morning; age does not close the door to new chapters.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 22,
+      "content": "Jair possessed twenty-three cities in Gilead. The inheritance of names and lands reminds us that God's promises extend through generations, each one building on what the Lord gave their fathers.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 23,
+      "content": "Territories shift between hands; Geshur and Aram reclaimed towns Jair had held. Nothing we hold is truly ours to keep—the Lord gives and takes according to His will.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 24,
+      "content": "After Hezron died, his widow bore a son—Ashhur. Even in death, a man's name continues through those left behind, and the Lord sustains the family through sorrow.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 25,
+      "content": "Jerahmeel, the firstborn, received five sons—Ram, Bunah, Oren, Ozem, and Ahijah. The firstborn's inheritance was often the heaviest; bearing a great name carried great responsibility.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 26,
+      "content": "Jerahmeel took another wife, Atarah, and she became mother to Onam. A second marriage can bring new blessings; the Lord does not measure love by the first chapter only.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 27,
+      "content": "The sons of Ram—Maaz, Jamin, and Eker—appear only in genealogy, yet the chronicler records their names. Every person who walked with the Lord is remembered in His sight, known or unknown to the world.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 28,
+      "content": "Onam fathered Shammai, who fathered Nadab and Abishur. The chronicler is careful to trace these lines—not to glorify them, but to show that God remembers the seed of covenant keepers.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 29,
+      "content": "Abihail bore Abishur's sons—Ahban and Molid. A wife's name and children are recorded here as part of the covenant line. Women are not incidental in God's record of His people.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 30,
+      "content": "Seled died without children, yet his brother Appaim continued the line. When one branch ends, another grows—God's covenant is not fragile; it endures.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 31,
+      "content": "Through Ishi, Sheshan, and Ahlai, the line continued unbroken. Simple names, quiet lives—yet they carried forward the promise their ancestors knew.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 32,
+      "content": "Jether died childless, but his brother Jonathan's sons—Peleth and Zaza—kept the family living. The Lord raises up others when one generation cannot bear children.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 33,
+      "content": "The sons of Jonathan are counted among the sons of Jerahmeel. In God's family, lineage is not erased; every name belongs to the whole people, and the whole people belongs to God.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 34,
+      "content": "Sheshan had no sons, only daughters—and so he gave his daughter to his Egyptian servant Jarha. Sometimes the Lord breaks convention to fulfill His design; a servant became family through an act of trust.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 35,
+      "content": "The long chain continues—Attai, Nathan, Zabad, and onward through Jekamiah to Elishama. Each generation heard the promise from the one before, carrying it forward like a lamp passed from hand to hand. The Lord's covenant transcends any earthly boundary.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 42,
+      "content": "Caleb the brother of Jerahmeel had sons who fathered towns—Mesha and Mareshah founded Ziph and Hebron. A man's name and his works often live on in the land itself.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 43,
+      "content": "The sons of Hebron—Korah, Tappuah, Rekem, and Shema—each carried a father's hope into their own generation. The strength of one man's faith ripples through his children.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 44,
+      "content": "Shema fathered Raham, Rekem fathered Shammai. The chronicler traces not just straight lines but the branching tree—showing how God's people spread and multiply across the land.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 45,
+      "content": "Shammai became father of Maon, who founded Beth Zur. In biblical genealogy, a man and his city often become one—he builds a place, and his name lives there forever.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 46,
+      "content": "Ephah, Caleb's concubine, bore three sons: Haran, Moza, and Gazez. In a household, all are counted—the chronicler's pen did not favor one wife's children over another's.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 47,
+      "content": "Jahdai's sons—Regem, Jothan, Geshan, Pelet, Ephah, and Shaaph—are named, though we know nothing more of them. The Lord knows each one; fame does not measure a person's worth in His eyes.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 48,
+      "content": "Maacah, another of Caleb's concubines, bore Sheber and Tirhanah. A man's lineage grew through many women; in this, we see both human fragility and God's faithfulness to bless despite it.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 49,
+      "content": "Maacah bore three more sons and a daughter—Achsah. In this genealogy, the daughter's name is preserved as carefully as any son's. Women's names matter in God's record.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 50,
+      "content": "Caleb, son of Hur, fathered Shobal—and Shobal's name means \"flowing\"—founder of Kiriath Jearim. In genealogy, a name often hints at character or calling; the Lord gives names that fit.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 51,
+      "content": "Salma fathered Bethlehem—the very city where the Line of Judah would culminate in a Savior's birth. A founder's name became inseparable from his city; generations later, that city bore witness to Christ.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 52,
+      "content": "Shobal's son Haroeh lived in the Menuhoth, a place name meaning \"rest.\" Even in genealogy's dry branches, we catch hints of the peace God gives to those who trust Him.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 53,
+      "content": "The families that came from Kiriath Jearim—Ithrites, Puthites, Shumathites, Mishraites—multiplied and spread. From one ancestor, many clans arose, each carrying the covenant seed.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 54,
+      "content": "The sons of Salma included Bethlehem and the Netophathites. These places and people, recorded here in a genealogy, became centers where God's word dwelt and witnesses lived.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 55,
+      "content": "The families of scribes at Jabez—the Tirathites, Shimeathites, Sucathites—were Kenites descended from Hammath. Scribes kept records, preserved words, wrote God's law; their labor was sacred work.",
       "author": "LLT Insight",
       "year": 2026,
       "is_public": true,

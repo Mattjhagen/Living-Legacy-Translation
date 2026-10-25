@@ -227,7 +227,431 @@
   "footnotes": [
     {
       "verse": 1,
-      "content": "",
+      "content": "Adam named first—not as a hero, but as the one through whom sin entered the world. Yet in Jesus, a second Adam came to undo what the first broke. That's how God reads the family tree.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 2,
+      "content": "Seth, chosen in Adam's place. The genealogies skip over Cain's line—God sees the faithful ones, not the proud. These names trace a thread of faith reaching toward the promise.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 3,
+      "content": "Enoch walked with God and was taken. Methuselah's long life spanned the faith of Noah's grandfather. Even when the world grew wicked, God kept a line of witnesses.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 4,
+      "content": "Noah saved through the flood, his three sons become the seed of all nations. God didn't destroy His people—He preserved them. From one faithful man, the whole earth was repeopled.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 5,
+      "content": "Japheth's sons settled in the northward lands—the Gentile nations. The family tree spreads outward; God's plan has always been wider than Israel alone.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 6,
+      "content": "Gomer and Togarmah—names that trace into the distant peoples. God sees them all by name, even before nations form and borders shift.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 7,
+      "content": "Javan, Tarshish, Kittim—names of seafaring peoples and trade routes. The chronicle shows how God's family scatters across the whole earth.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 8,
+      "content": "Ham's sons include Egypt, Ethiopia, and Canaan—nations vital to Israel's story. Some will be enemies, others neighbors; all are in God's sight.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 9,
+      "content": "Sheba and Dedan—the trader-names of Arabia. The genealogy isn't just names; it's the memory of peoples and their lands, all woven into one family story.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 10,
+      "content": "Nimrod 'began to be mighty'—first hunter, first to build the tower of Babel. When pride grows, God scatters. His power alone is lasting.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 11,
+      "content": "Mizraim fathered Egypt—land of plagues and slavery where Israel's story will be tested and refined. Every name holds a chapter of God's unfolding purpose.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 12,
+      "content": "The Philistines came from Casluhim—those who will harass Israel for generations. Yet even enemies are part of the record, part of how God shapes His people through struggle.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 13,
+      "content": "Sidon—Canaan's firstborn, an ancient city. Its people will trade, build, and later meet the prophets. Every name carries the weight of generations to come.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 14,
+      "content": "The Amorite, the Jebusite—peoples Israel will face as enemies in Canaan. They too came from Noah's line; they too could have chosen the Lord's way.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 15,
+      "content": "The Hivite, the Arkite—tribal names that will mark battles and boundaries. God knows each one; they matter to His story even when their names fade from memory.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 16,
+      "content": "Arvadite, Zemarite, Hamathite—coastal and inland peoples, merchants and warriors. The genealogy frames the map of all Israel will inherit.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 17,
+      "content": "Shem's sons lean eastward—Asshur, Aram, the heartland of the Middle East. From Shem comes Abraham's line; the elect run through this branch.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 18,
+      "content": "Arpachshad → Shelah → Eber. These links reach forward: Eber is father of Peleg, who will see the earth divided at Babel. Long chains of purpose, held fast by God.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 19,
+      "content": "Peleg—'the earth was divided' in his days. Babel's confusion, yet God chose one man's line through which the promise would flow unbroken.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 20,
+      "content": "Joktan and his sons spread toward Arabia. Even those who diverge from the main line of promise are held in God's memory, seen by His eye.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 21,
+      "content": "More names of Arabia's peoples, merchants and desert dwellers. The genealogy spans the known world—God's purposes embrace all nations.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 22,
+      "content": "Ophir's name will later echo as a land of gold and treasure. Names carry their meanings through time; God weaves all stories into one tapestry.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 23,
+      "content": "'All these were the sons of Joktan'—a summary pause. Even lines that don't lead to Israel are honored in the record. God misses no one.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 24,
+      "content": "Now the thread narrows—Shem's descendants in their order. The chronicle begins to follow the line of the covenant more closely, step by step toward Abraham.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 25,
+      "content": "Eber, Peleg, Reu—names of patience and duration. Each lived and waited; each passed the promise to the next. Faith waits; it does not rush.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 26,
+      "content": "Serug, Nahor, Terah—the line tightens. Terah will carry his son Abram from Ur; the promise moves nearer with each generation named.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 27,
+      "content": "Abram—also called Abraham. The name change marks a threshold: he is renamed in covenant, called to be father of nations. From here, the genealogy becomes the covenant family.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 28,
+      "content": "Isaac and Ishmael—both sons of Abraham, yet Isaac carries the promise forward. Both matter; not all children of the flesh are children of the covenant.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 29,
+      "content": "Ishmael's firstborn, Nebaioth—his line receives honor in the record, even though the covenant flows through Isaac. God blesses both, though the promise goes one way.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 30,
+      "content": "Kedar—later a name for Arabian peoples. Even those outside the covenant line are numbered and remembered; God sees and honors all His creatures.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 31,
+      "content": "'These are the sons of Ishmael'—a summary. The blessing spreads wide; the covenant thread stays narrow and sure, bound for Israel.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 32,
+      "content": "Keturah's sons—Abraham, though old, still fathers more. His fruitfulness echoes the promise; offspring like stars, though the covenant line is singular.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 33,
+      "content": "Midian—later a nation Israel will meet in the wilderness and at Judges' courts. Abraham's grandchildren spread across the lands where God will later work.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 34,
+      "content": "Abraham → Isaac; Isaac → Esau and Jacob (Israel). The narrowing continues. Jacob is renamed 'Israel'; from him the twelve tribes and the covenant people.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 35,
+      "content": "Esau's sons—he chose the earthly promise over the spiritual. His line becomes Edom, rival and neighbor to Israel; both brothers' descendants will fill the earth.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 36,
+      "content": "Eliphaz's children include Amalek—later Israel's archetypal enemy. From Esau's line comes one who will test Israel's faith and courage for generations.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 37,
+      "content": "Reuel's sons continue Esau's line. All named, all real; the genealogy honors Edom even as it traces the covenant through Jacob.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 38,
+      "content": "Seir the Horite—the peoples of the hill country before Israel enters. Geography and genealogy twine together; the land itself was inhabited.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 39,
+      "content": "Timna was Lotan's sister—the chronicle names both men and women, honoring how relationships bind families. Every person has a place in God's story.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 40,
+      "content": "Shobal and Zibeon's descendants fill the early Edomite lands. These names anchor a region where Esau's children made their home.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 41,
+      "content": "Anah fathered Dishon—genealogies are chains, each link in place. The specificity honors the reality that God works through real, named, interconnected people.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 42,
+      "content": "Ezer and Dishan's sons—more names of Edom's clans. Every valley and tribe in that land had fathers and families; all are written down before God.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 43,
+      "content": "Kings reigned in Edom 'before any king reigned over the children of Israel.' Edom organized under monarchy first; Israel would follow later, shaped by its own covenant.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 44,
+      "content": "Kings rise and fall in Edom, each remembered in turn. Human kingship is brief; the kingdom of God endures forever.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 45,
+      "content": "Husham of the Temanites—the cycle continues. One king dies, another takes the throne. Yet through it all, Israel's God is building toward His purpose.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 46,
+      "content": "Hadad struck Midian in Moab's field. Edom's kings wage wars; the land is contested. God's people will later know this same struggle.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 47,
+      "content": "Samlah of Masrekah—each name a dynasty, each king a chapter in Edom's story. None of their great deeds saves them from the grave.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 48,
+      "content": "Shaul of Rehoboth—a kingdom by the river, a city named. Power and possession pass like morning mist.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 49,
+      "content": "Baal Hanan—the name carries hints of false gods; still, even kings who chase idols are numbered in the record. God's patience is longer than any reign.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 50,
+      "content": "Hadad reigned again; his wife named Mehetabel. Even marriages and dynasties are briefly sketched. Life unfolds in names; eternity belongs to God alone.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 51,
+      "content": "'Then Hadad died.' The turning point: kings end, and chieftains rise. Edom's glory shifts from centralized rule to tribal leaders.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 52,
+      "content": "Oholibamah, Elah, Pinon—Edom's chiefs, each commanding a region. Power disperses; authority scatters among the clans.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 53,
+      "content": "Kenaz, Teman, Mibzar—more chiefs, more territories. Each name holds land and people; each is a thread in the tapestry Edom weaves.",
+      "author": "LLT Insight",
+      "year": 2026,
+      "is_public": true,
+      "type": "insight"
+    },
+    {
+      "verse": 54,
+      "content": "Magdiel, Iram—the final chiefs of Edom. Readers today hear an echo in these names: all kingdoms rise and pass away, save One. Every genealogy points toward the King who never dies.",
       "author": "LLT Insight",
       "year": 2026,
       "is_public": true,

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/matt/PurePulse/Rooted-Daily-static-site/Living-Legacy-Translation/scripts/heirloom_driver.py", line 283, in <module>
+    main(single_genesis1=False)
+  File "/home/matt/PurePulse/Rooted-Daily-static-site/Living-Legacy-Translation/scripts/heirloom_driver.py", line 231, in main
+    entries_ch, u_ratio, elapsed = process_chapter(slug, book_name, ch, prog)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/matt/PurePulse/Rooted-Daily-static-site/Living-Legacy-Translation/scripts/heirloom_driver.py", line 137, in process_chapter
+    time.sleep(60)
+KeyboardInterrupt

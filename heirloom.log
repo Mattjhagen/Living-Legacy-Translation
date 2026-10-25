@@ -1,0 +1,525 @@
+nohup: ignoring input
+[2026-10-25 08:17:54] Genesis: BOOK COMPLETE - coverage_ok chapters=50 unique_ratio=1.000
+[2026-10-25 08:17:54] Joshua: BOOK COMPLETE - coverage_ok chapters=24 unique_ratio=1.000
+[2026-10-25 08:17:54] Matthew 18: starting
+[2026-10-25 08:19:36] Matthew 18: entries=35 unique_ratio=1.000 time=102.0s OK
+[2026-10-25 08:19:36] Matthew 19: starting
+[2026-10-25 08:20:10] Matthew 19: entries=30 unique_ratio=1.000 time=34.3s OK
+[2026-10-25 08:20:10] Matthew 20: starting
+[2026-10-25 08:20:49] Matthew 20: entries=34 unique_ratio=1.000 time=38.6s OK
+[2026-10-25 08:20:49] Matthew 21: starting
+[2026-10-25 08:21:35] Matthew 21: entries=46 unique_ratio=1.000 time=46.1s OK
+[2026-10-25 08:21:35] Matthew 22: starting
+[2026-10-25 08:22:21] Matthew 22: entries=46 unique_ratio=1.000 time=45.5s OK
+[2026-10-25 08:22:21] Matthew 23: starting
+[2026-10-25 08:23:00] Matthew 23: entries=39 unique_ratio=1.000 time=39.1s OK
+[2026-10-25 08:23:00] Matthew 24: starting
+[2026-10-25 08:23:53] Matthew 24: entries=51 unique_ratio=1.000 time=52.7s OK
+[2026-10-25 08:23:53] Matthew 25: starting
+[2026-10-25 08:24:44] Matthew 25: entries=46 unique_ratio=1.000 time=50.9s OK
+[2026-10-25 08:24:44] Matthew 26: starting
+[2026-10-25 08:25:53] Matthew 26: attempt 1 failed: Coverage failed: got 74 verses, expected 75
+[2026-10-25 08:30:35] Matthew 26: entries=75 unique_ratio=1.000 time=221.5s OK
+[2026-10-25 08:30:35] Matthew 27: starting
+[2026-10-25 08:31:45] Matthew 27: entries=66 unique_ratio=1.000 time=70.7s OK
+[2026-10-25 08:31:45] Matthew 28: starting
+[2026-10-25 08:32:13] Matthew 28: entries=20 unique_ratio=1.000 time=27.8s OK
+[2026-10-25 08:32:13] Matthew: BOOK COMPLETE - coverage_ok chapters=28 unique_ratio=1.000
+[2026-10-25 08:32:13] Mark 1: starting
+[2026-10-25 08:33:05] Mark 1: entries=45 unique_ratio=1.000 time=51.6s OK
+[2026-10-25 08:33:05] Mark 2: starting
+[2026-10-25 08:33:39] Mark 2: entries=28 unique_ratio=1.000 time=34.3s OK
+[2026-10-25 08:33:39] Mark 3: starting
+[2026-10-25 08:34:20] Mark 3: entries=35 unique_ratio=1.000 time=40.8s OK
+[2026-10-25 08:34:20] Mark 4: starting
+[2026-10-25 08:34:59] Mark 4: entries=41 unique_ratio=1.000 time=38.9s OK
+[2026-10-25 08:34:59] Mark 5: starting
+[2026-10-25 08:35:42] Mark 5: entries=43 unique_ratio=1.000 time=43.0s OK
+[2026-10-25 08:35:42] Mark 6: starting
+[2026-10-25 08:36:31] Mark 6: entries=56 unique_ratio=1.000 time=48.8s OK
+[2026-10-25 08:36:31] Mark 7: starting
+[2026-10-25 08:37:12] Mark 7: entries=32 unique_ratio=1.000 time=41.3s OK
+[2026-10-25 08:37:12] Mark 8: starting
+[2026-10-25 08:37:56] Mark 8: entries=38 unique_ratio=1.000 time=44.3s OK
+[2026-10-25 08:37:56] Mark 9: starting
+[2026-10-25 08:38:53] Mark 9: attempt 1 failed: Expecting ',' delimiter: line 55 column 82 (char 2547)
+[2026-10-25 08:42:21] Mark 9: entries=50 unique_ratio=1.000 time=148.3s OK
+[2026-10-25 08:42:21] Mark 10: starting
+[2026-10-25 08:43:15] Mark 10: entries=52 unique_ratio=1.000 time=53.5s OK
+[2026-10-25 08:43:15] Mark 11: starting
+[2026-10-25 08:43:53] Mark 11: entries=33 unique_ratio=1.000 time=37.8s OK
+[2026-10-25 08:43:53] Mark 12: starting
+[2026-10-25 08:44:39] Mark 12: entries=44 unique_ratio=1.000 time=46.4s OK
+[2026-10-25 08:44:39] Mark 13: starting
+[2026-10-25 08:45:23] Mark 13: entries=37 unique_ratio=1.000 time=43.8s OK
+[2026-10-25 08:45:23] Mark 14: starting
+[2026-10-25 08:46:28] Mark 14: entries=72 unique_ratio=1.000 time=64.9s OK
+[2026-10-25 08:46:28] Mark 15: starting
+[2026-10-25 08:47:19] Mark 15: entries=47 unique_ratio=1.000 time=51.3s OK
+[2026-10-25 08:47:19] Mark 16: starting
+[2026-10-25 08:47:47] Mark 16: attempt 1 failed: Expecting ',' delimiter: line 47 column 15 (char 2039)
+[2026-10-25 08:49:59] Mark 16: entries=20 unique_ratio=1.000 time=72.1s OK
+[2026-10-25 08:49:59] Mark: BOOK COMPLETE - coverage_ok chapters=16 unique_ratio=1.000
+[2026-10-25 08:49:59] Luke 1: starting
+[2026-10-25 08:51:07] Luke 1: entries=80 unique_ratio=1.000 time=67.9s OK
+[2026-10-25 08:51:07] Luke 2: starting
+[2026-10-25 08:51:59] Luke 2: entries=52 unique_ratio=1.000 time=52.6s OK
+[2026-10-25 08:51:59] Luke 3: starting
+[2026-10-25 08:52:38] Luke 3: entries=38 unique_ratio=1.000 time=38.6s OK
+[2026-10-25 08:52:38] Luke 4: starting
+[2026-10-25 08:53:24] Luke 4: entries=44 unique_ratio=1.000 time=45.5s OK
+[2026-10-25 08:53:24] Luke 5: starting
+[2026-10-25 08:54:08] Luke 5: entries=39 unique_ratio=1.000 time=44.1s OK
+[2026-10-25 08:54:08] Luke 6: starting
+[2026-10-25 08:54:55] Luke 6: entries=49 unique_ratio=1.000 time=47.7s OK
+[2026-10-25 08:54:55] Luke 7: starting
+[2026-10-25 08:55:54] Luke 7: entries=50 unique_ratio=1.000 time=58.8s OK
+[2026-10-25 08:55:54] Luke 8: starting
+[2026-10-25 08:56:44] Luke 8: entries=56 unique_ratio=1.000 time=50.2s OK
+[2026-10-25 08:56:44] Luke 9: starting
+[2026-10-25 08:57:43] Luke 9: entries=62 unique_ratio=1.000 time=59.0s OK
+[2026-10-25 08:57:43] Luke 10: starting
+[2026-10-25 08:58:24] Luke 10: entries=42 unique_ratio=1.000 time=40.8s OK
+[2026-10-25 08:58:24] Luke 11: starting
+[2026-10-25 08:59:19] Luke 11: entries=54 unique_ratio=1.000 time=55.0s OK
+[2026-10-25 08:59:19] Luke 12: starting
+[2026-10-25 09:00:22] Luke 12: entries=59 unique_ratio=1.000 time=63.0s OK
+[2026-10-25 09:00:22] Luke 13: starting
+[2026-10-25 09:01:02] Luke 13: entries=35 unique_ratio=1.000 time=40.2s OK
+[2026-10-25 09:01:02] Luke 14: starting
+[2026-10-25 09:01:43] Luke 14: entries=35 unique_ratio=1.000 time=40.6s OK
+[2026-10-25 09:01:43] Luke 15: starting
+[2026-10-25 09:02:22] Luke 15: entries=32 unique_ratio=1.000 time=39.0s OK
+[2026-10-25 09:02:22] Luke 16: starting
+[2026-10-25 09:03:05] Luke 16: entries=31 unique_ratio=1.000 time=42.8s OK
+[2026-10-25 09:03:05] Luke 17: starting
+[2026-10-25 09:03:47] Luke 17: entries=37 unique_ratio=1.000 time=42.2s OK
+[2026-10-25 09:03:47] Luke 18: starting
+[2026-10-25 09:04:35] Luke 18: entries=43 unique_ratio=1.000 time=48.0s OK
+[2026-10-25 09:04:35] Luke 19: starting
+[2026-10-25 09:05:33] Luke 19: entries=48 unique_ratio=1.000 time=57.5s OK
+[2026-10-25 09:05:33] Luke 20: starting
+[2026-10-25 09:06:21] Luke 20: entries=47 unique_ratio=1.000 time=48.1s OK
+[2026-10-25 09:06:21] Luke 21: starting
+[2026-10-25 09:07:03] Luke 21: entries=38 unique_ratio=1.000 time=42.0s OK
+[2026-10-25 09:07:03] Luke 22: starting
+[2026-10-25 09:08:13] Luke 22: entries=71 unique_ratio=1.000 time=69.9s OK
+[2026-10-25 09:08:13] Luke 23: starting
+[2026-10-25 09:09:07] Luke 23: entries=56 unique_ratio=1.000 time=54.6s OK
+[2026-10-25 09:09:07] Luke 24: starting
+[2026-10-25 09:09:57] Luke 24: entries=53 unique_ratio=1.000 time=49.9s OK
+[2026-10-25 09:09:57] Luke: BOOK COMPLETE - coverage_ok chapters=24 unique_ratio=1.000
+[2026-10-25 09:09:57] John 1: starting
+[2026-10-25 09:10:46] John 1: entries=51 unique_ratio=1.000 time=49.3s OK
+[2026-10-25 09:10:46] John 2: starting
+[2026-10-25 09:11:17] John 2: entries=25 unique_ratio=1.000 time=30.5s OK
+[2026-10-25 09:11:17] John 3: starting
+[2026-10-25 09:11:59] John 3: entries=36 unique_ratio=1.000 time=41.6s OK
+[2026-10-25 09:11:59] John 4: starting
+[2026-10-25 09:12:51] John 4: entries=54 unique_ratio=1.000 time=52.4s OK
+[2026-10-25 09:12:51] John 5: starting
+[2026-10-25 09:13:50] John 5: entries=47 unique_ratio=1.000 time=59.2s OK
+[2026-10-25 09:13:50] John 6: starting
+[2026-10-25 09:14:52] John 6: entries=71 unique_ratio=1.000 time=62.1s OK
+[2026-10-25 09:14:52] John 7: starting
+[2026-10-25 09:15:40] John 7: entries=53 unique_ratio=1.000 time=47.3s OK
+[2026-10-25 09:15:40] John 8: starting
+[2026-10-25 09:16:35] John 8: entries=59 unique_ratio=1.000 time=55.7s OK
+[2026-10-25 09:16:35] John 9: starting
+[2026-10-25 09:17:20] John 9: entries=41 unique_ratio=1.000 time=44.6s OK
+[2026-10-25 09:17:20] John 10: starting
+[2026-10-25 09:18:07] John 10: entries=42 unique_ratio=1.000 time=47.2s OK
+[2026-10-25 09:18:07] John 11: starting
+[2026-10-25 09:19:02] John 11: entries=57 unique_ratio=1.000 time=54.8s OK
+[2026-10-25 09:19:02] John 12: starting
+[2026-10-25 09:19:54] John 12: entries=50 unique_ratio=1.000 time=51.6s OK
+[2026-10-25 09:19:54] John 13: starting
+[2026-10-25 09:20:31] John 13: entries=38 unique_ratio=1.000 time=37.0s OK
+[2026-10-25 09:20:31] John 14: starting
+[2026-10-25 09:21:06] John 14: entries=31 unique_ratio=1.000 time=35.6s OK
+[2026-10-25 09:21:06] John 15: starting
+[2026-10-25 09:21:40] John 15: entries=27 unique_ratio=1.000 time=33.9s OK
+[2026-10-25 09:21:40] John 16: starting
+[2026-10-25 09:22:21] John 16: entries=33 unique_ratio=1.000 time=40.4s OK
+[2026-10-25 09:22:21] John 17: starting
+[2026-10-25 09:22:54] John 17: entries=26 unique_ratio=1.000 time=33.6s OK
+[2026-10-25 09:22:54] John 18: starting
+[2026-10-25 09:23:40] John 18: entries=40 unique_ratio=1.000 time=45.4s OK
+[2026-10-25 09:23:40] John 19: starting
+[2026-10-25 09:24:27] John 19: entries=42 unique_ratio=1.000 time=47.4s OK
+[2026-10-25 09:24:27] John 20: starting
+[2026-10-25 09:25:06] John 20: attempt 1 failed: Expecting ',' delimiter: line 127 column 40 (char 5948)
+[2026-10-25 09:27:49] John 20: entries=31 unique_ratio=1.000 time=102.7s OK
+[2026-10-25 09:27:49] John 21: starting
+[2026-10-25 09:28:22] John 21: entries=25 unique_ratio=1.000 time=33.0s OK
+[2026-10-25 09:28:22] John: BOOK COMPLETE - coverage_ok chapters=21 unique_ratio=1.000
+[2026-10-25 09:28:22] Acts 1: starting
+[2026-10-25 09:28:56] Acts 1: entries=26 unique_ratio=1.000 time=34.3s OK
+[2026-10-25 09:28:56] Acts 2: starting
+[2026-10-25 09:29:39] Acts 2: entries=45 unique_ratio=1.000 time=42.1s OK
+[2026-10-25 09:29:39] Acts 3: starting
+[2026-10-25 09:30:11] Acts 3: entries=26 unique_ratio=1.000 time=32.1s OK
+[2026-10-25 09:30:11] Acts 4: starting
+[2026-10-25 09:30:56] Acts 4: entries=37 unique_ratio=1.000 time=45.8s OK
+[2026-10-25 09:30:56] Acts 5: starting
+[2026-10-25 09:31:41] Acts 5: entries=42 unique_ratio=1.000 time=45.0s OK
+[2026-10-25 09:31:41] Acts 6: starting
+[2026-10-25 09:32:05] Acts 6: entries=15 unique_ratio=1.000 time=23.8s OK
+[2026-10-25 09:32:05] Acts 7: starting
+[2026-10-25 09:33:08] Acts 7: entries=60 unique_ratio=1.000 time=63.2s OK
+[2026-10-25 09:33:08] Acts 8: starting
+[2026-10-25 09:33:54] Acts 8: entries=40 unique_ratio=1.000 time=45.4s OK
+[2026-10-25 09:33:54] Acts 9: starting
+[2026-10-25 09:34:46] Acts 9: entries=43 unique_ratio=1.000 time=52.3s OK
+[2026-10-25 09:34:46] Acts 10: starting
+[2026-10-25 09:35:39] Acts 10: entries=48 unique_ratio=1.000 time=53.0s OK
+[2026-10-25 09:35:39] Acts 11: starting
+[2026-10-25 09:36:18] Acts 11: entries=30 unique_ratio=1.000 time=38.4s OK
+[2026-10-25 09:36:18] Acts 12: starting
+[2026-10-25 09:36:51] Acts 12: entries=25 unique_ratio=1.000 time=32.9s OK
+[2026-10-25 09:36:51] Acts 13: starting
+[2026-10-25 09:37:59] Acts 13: entries=52 unique_ratio=1.000 time=68.4s OK
+[2026-10-25 09:37:59] Acts 14: starting
+[2026-10-25 09:38:38] Acts 14: entries=28 unique_ratio=1.000 time=39.4s OK
+[2026-10-25 09:38:38] Acts 15: starting
+[2026-10-25 09:39:23] Acts 15: entries=41 unique_ratio=1.000 time=44.5s OK
+[2026-10-25 09:39:23] Acts 16: starting
+[2026-10-25 09:40:07] Acts 16: entries=40 unique_ratio=1.000 time=44.3s OK
+[2026-10-25 09:40:07] Acts 17: starting
+[2026-10-25 09:40:47] Acts 17: entries=34 unique_ratio=1.000 time=40.1s OK
+[2026-10-25 09:40:47] Acts 18: starting
+[2026-10-25 09:41:24] Acts 18: entries=28 unique_ratio=1.000 time=36.6s OK
+[2026-10-25 09:41:24] Acts 19: starting
+[2026-10-25 09:42:03] Acts 19: entries=41 unique_ratio=1.000 time=39.4s OK
+[2026-10-25 09:42:03] Acts 20: starting
+[2026-10-25 09:42:45] Acts 20: entries=38 unique_ratio=1.000 time=41.8s OK
+[2026-10-25 09:42:45] Acts 21: starting
+[2026-10-25 09:43:31] Acts 21: attempt 1 failed: Coverage failed: got 39 verses, expected 40
+[2026-10-25 09:46:24] Acts 21: entries=40 unique_ratio=1.000 time=112.8s OK
+[2026-10-25 09:46:24] Acts 22: starting
+[2026-10-25 09:47:04] Acts 22: entries=30 unique_ratio=1.000 time=39.4s OK
+[2026-10-25 09:47:04] Acts 23: starting
+[2026-10-25 09:47:50] Acts 23: entries=35 unique_ratio=1.000 time=46.5s OK
+[2026-10-25 09:47:50] Acts 24: starting
+[2026-10-25 09:48:24] Acts 24: entries=27 unique_ratio=1.000 time=33.7s OK
+[2026-10-25 09:48:24] Acts 25: starting
+[2026-10-25 09:49:03] Acts 25: entries=27 unique_ratio=1.000 time=38.8s OK
+[2026-10-25 09:49:03] Acts 26: starting
+[2026-10-25 09:49:42] Acts 26: entries=32 unique_ratio=1.000 time=39.4s OK
+[2026-10-25 09:49:42] Acts 27: starting
+[2026-10-25 09:50:31] Acts 27: entries=44 unique_ratio=1.000 time=48.7s OK
+[2026-10-25 09:50:31] Acts 28: starting
+[2026-10-25 09:51:07] Acts 28: entries=31 unique_ratio=1.000 time=36.5s OK
+[2026-10-25 09:51:07] Acts: BOOK COMPLETE - coverage_ok chapters=28 unique_ratio=1.000
+[2026-10-25 09:51:07] Romans 1: starting
+[2026-10-25 09:51:40] Romans 1: entries=32 unique_ratio=1.000 time=32.8s OK
+[2026-10-25 09:51:40] Romans 2: starting
+[2026-10-25 09:52:18] Romans 2: entries=29 unique_ratio=1.000 time=37.8s OK
+[2026-10-25 09:52:18] Romans 3: starting
+[2026-10-25 09:52:55] Romans 3: entries=31 unique_ratio=1.000 time=37.3s OK
+[2026-10-25 09:52:55] Romans 4: starting
+[2026-10-25 09:53:24] Romans 4: entries=25 unique_ratio=1.000 time=28.8s OK
+[2026-10-25 09:53:24] Romans 5: starting
+[2026-10-25 09:53:54] Romans 5: entries=21 unique_ratio=1.000 time=30.0s OK
+[2026-10-25 09:53:54] Romans 6: starting
+[2026-10-25 09:54:26] Romans 6: entries=23 unique_ratio=1.000 time=31.9s OK
+[2026-10-25 09:54:26] Romans 7: starting
+[2026-10-25 09:54:58] Romans 7: entries=25 unique_ratio=1.000 time=31.6s OK
+[2026-10-25 09:54:58] Romans 8: starting
+[2026-10-25 09:55:42] Romans 8: entries=39 unique_ratio=1.000 time=43.8s OK
+[2026-10-25 09:55:42] Romans 9: starting
+[2026-10-25 09:56:26] Romans 9: entries=33 unique_ratio=1.000 time=44.3s OK
+[2026-10-25 09:56:26] Romans 10: starting
+[2026-10-25 09:56:56] Romans 10: entries=21 unique_ratio=1.000 time=29.7s OK
+[2026-10-25 09:56:56] Romans 11: starting
+[2026-10-25 09:57:39] Romans 11: entries=36 unique_ratio=1.000 time=43.2s OK
+[2026-10-25 09:57:39] Romans 12: starting
+[2026-10-25 09:58:09] Romans 12: entries=21 unique_ratio=1.000 time=30.3s OK
+[2026-10-25 09:58:09] Romans 13: starting
+[2026-10-25 09:58:42] Romans 13: entries=14 unique_ratio=1.000 time=32.6s OK
+[2026-10-25 09:58:42] Romans 14: starting
+[2026-10-25 09:59:14] Romans 14: entries=26 unique_ratio=1.000 time=32.1s OK
+[2026-10-25 09:59:14] Romans 15: starting
+[2026-10-25 09:59:48] Romans 15: entries=33 unique_ratio=1.000 time=34.0s OK
+[2026-10-25 09:59:48] Romans 16: starting
+[2026-10-25 10:00:21] Romans 16: entries=24 unique_ratio=1.000 time=32.7s OK
+[2026-10-25 10:00:21] Romans: BOOK COMPLETE - coverage_ok chapters=16 unique_ratio=1.000
+[2026-10-25 10:00:21] 1 Corinthians 1: starting
+[2026-10-25 10:00:58] 1 Corinthians 1: entries=31 unique_ratio=1.000 time=37.5s OK
+[2026-10-25 10:00:58] 1 Corinthians 2: starting
+[2026-10-25 10:01:25] 1 Corinthians 2: entries=16 unique_ratio=1.000 time=26.4s OK
+[2026-10-25 10:01:25] 1 Corinthians 3: starting
+[2026-10-25 10:02:00] 1 Corinthians 3: entries=23 unique_ratio=1.000 time=35.1s OK
+[2026-10-25 10:02:00] 1 Corinthians 4: starting
+[2026-10-25 10:02:31] 1 Corinthians 4: entries=21 unique_ratio=1.000 time=30.8s OK
+[2026-10-25 10:02:31] 1 Corinthians 5: starting
+[2026-10-25 10:02:54] 1 Corinthians 5: entries=13 unique_ratio=1.000 time=23.0s OK
+[2026-10-25 10:02:54] 1 Corinthians 6: starting
+[2026-10-25 10:03:28] 1 Corinthians 6: entries=20 unique_ratio=1.000 time=34.3s OK
+[2026-10-25 10:03:28] 1 Corinthians 7: starting
+[2026-10-25 10:04:14] 1 Corinthians 7: entries=40 unique_ratio=1.000 time=45.9s OK
+[2026-10-25 10:04:14] 1 Corinthians 8: starting
+[2026-10-25 10:04:39] 1 Corinthians 8: entries=13 unique_ratio=1.000 time=25.3s OK
+[2026-10-25 10:04:39] 1 Corinthians 9: starting
+[2026-10-25 10:05:19] 1 Corinthians 9: entries=27 unique_ratio=1.000 time=40.4s OK
+[2026-10-25 10:05:19] 1 Corinthians 10: starting
+[2026-10-25 10:06:07] 1 Corinthians 10: entries=33 unique_ratio=1.000 time=47.9s OK
+[2026-10-25 10:06:07] 1 Corinthians 11: starting
+[2026-10-25 10:06:51] 1 Corinthians 11: entries=34 unique_ratio=1.000 time=43.5s OK
+[2026-10-25 10:06:51] 1 Corinthians 12: starting
+[2026-10-25 10:07:29] 1 Corinthians 12: attempt 1 failed: claude failed with code 1: API Error: The system encountered an unexpected error during processing. Try your request again.
+
+Warning: Opus: Opus 5.5 not available — using Opus 4.6 for this session
+
+[2026-10-25 10:09:08] 1 Corinthians 12: entries=31 unique_ratio=1.000 time=38.9s OK
+[2026-10-25 10:09:08] 1 Corinthians 13: starting
+[2026-10-25 10:09:33] 1 Corinthians 13: entries=13 unique_ratio=1.000 time=25.6s OK
+[2026-10-25 10:09:33] 1 Corinthians 14: starting
+[2026-10-25 10:10:27] 1 Corinthians 14: entries=40 unique_ratio=1.000 time=53.6s OK
+[2026-10-25 10:10:27] 1 Corinthians 15: starting
+[2026-10-25 10:11:27] 1 Corinthians 15: entries=58 unique_ratio=1.000 time=60.4s OK
+[2026-10-25 10:11:27] 1 Corinthians 16: starting
+[2026-10-25 10:12:03] 1 Corinthians 16: entries=25 unique_ratio=1.000 time=35.5s OK
+[2026-10-25 10:12:03] 1 Corinthians: BOOK COMPLETE - coverage_ok chapters=16 unique_ratio=1.000
+[2026-10-25 10:12:03] 2 Corinthians 1: starting
+[2026-10-25 10:12:34] 2 Corinthians 1: entries=24 unique_ratio=1.000 time=30.8s OK
+[2026-10-25 10:12:34] 2 Corinthians 2: starting
+[2026-10-25 10:13:02] 2 Corinthians 2: entries=17 unique_ratio=1.000 time=27.8s OK
+[2026-10-25 10:13:02] 2 Corinthians 3: starting
+[2026-10-25 10:13:27] 2 Corinthians 3: entries=18 unique_ratio=1.000 time=25.7s OK
+[2026-10-25 10:13:27] 2 Corinthians 4: starting
+[2026-10-25 10:13:56] 2 Corinthians 4: entries=18 unique_ratio=1.000 time=28.5s OK
+[2026-10-25 10:13:56] 2 Corinthians 5: starting
+[2026-10-25 10:14:29] 2 Corinthians 5: entries=21 unique_ratio=1.000 time=33.0s OK
+[2026-10-25 10:14:29] 2 Corinthians 6: starting
+[2026-10-25 10:14:57] 2 Corinthians 6: entries=18 unique_ratio=1.000 time=27.9s OK
+[2026-10-25 10:14:57] 2 Corinthians 7: starting
+[2026-10-25 10:15:22] 2 Corinthians 7: entries=16 unique_ratio=1.000 time=24.9s OK
+[2026-10-25 10:15:22] 2 Corinthians 8: starting
+[2026-10-25 10:15:50] 2 Corinthians 8: entries=24 unique_ratio=1.000 time=28.8s OK
+[2026-10-25 10:15:50] 2 Corinthians 9: starting
+[2026-10-25 10:16:14] 2 Corinthians 9: entries=15 unique_ratio=1.000 time=23.4s OK
+[2026-10-25 10:16:14] 2 Corinthians 10: starting
+[2026-10-25 10:16:43] 2 Corinthians 10: entries=17 unique_ratio=1.000 time=29.7s OK
+[2026-10-25 10:16:43] 2 Corinthians 11: starting
+[2026-10-25 10:17:22] 2 Corinthians 11: entries=33 unique_ratio=1.000 time=38.3s OK
+[2026-10-25 10:17:22] 2 Corinthians 12: starting
+[2026-10-25 10:17:52] 2 Corinthians 12: entries=21 unique_ratio=1.000 time=30.2s OK
+[2026-10-25 10:17:52] 2 Corinthians 13: starting
+[2026-10-25 10:18:15] 2 Corinthians 13: entries=14 unique_ratio=1.000 time=23.2s OK
+[2026-10-25 10:18:15] 2 Corinthians: BOOK COMPLETE - coverage_ok chapters=13 unique_ratio=1.000
+[2026-10-25 10:18:15] Galatians 1: starting
+[2026-10-25 10:18:48] Galatians 1: entries=24 unique_ratio=1.000 time=32.3s OK
+[2026-10-25 10:18:48] Galatians 2: starting
+[2026-10-25 10:19:17] Galatians 2: entries=21 unique_ratio=1.000 time=29.3s OK
+[2026-10-25 10:19:17] Galatians 3: starting
+[2026-10-25 10:19:52] Galatians 3: entries=29 unique_ratio=1.000 time=35.3s OK
+[2026-10-25 10:19:52] Galatians 4: starting
+[2026-10-25 10:20:28] Galatians 4: attempt 1 failed: Expecting ',' delimiter: line 23 column 67 (char 881)
+[2026-10-25 10:23:13] Galatians 4: entries=31 unique_ratio=1.000 time=104.2s OK
+[2026-10-25 10:23:13] Galatians 5: starting
+[2026-10-25 10:23:44] Galatians 5: entries=26 unique_ratio=1.000 time=31.4s OK
+[2026-10-25 10:23:44] Galatians 6: starting
+[2026-10-25 10:24:14] Galatians 6: entries=18 unique_ratio=1.000 time=29.8s OK
+[2026-10-25 10:24:14] Galatians: BOOK COMPLETE - coverage_ok chapters=6 unique_ratio=1.000
+[2026-10-25 10:24:14] Ephesians 1: starting
+[2026-10-25 10:24:45] Ephesians 1: entries=23 unique_ratio=1.000 time=31.5s OK
+[2026-10-25 10:24:45] Ephesians 2: starting
+[2026-10-25 10:25:14] Ephesians 2: entries=22 unique_ratio=1.000 time=28.9s OK
+[2026-10-25 10:25:14] Ephesians 3: starting
+[2026-10-25 10:25:43] Ephesians 3: entries=21 unique_ratio=1.000 time=28.3s OK
+[2026-10-25 10:25:43] Ephesians 4: starting
+[2026-10-25 10:26:20] Ephesians 4: entries=32 unique_ratio=1.000 time=37.6s OK
+[2026-10-25 10:26:20] Ephesians 5: starting
+[2026-10-25 10:26:56] Ephesians 5: entries=33 unique_ratio=1.000 time=36.1s OK
+[2026-10-25 10:26:56] Ephesians 6: starting
+[2026-10-25 10:27:32] Ephesians 6: entries=24 unique_ratio=1.000 time=35.4s OK
+[2026-10-25 10:27:32] Ephesians: BOOK COMPLETE - coverage_ok chapters=6 unique_ratio=1.000
+[2026-10-25 10:27:32] Philippians 1: starting
+[2026-10-25 10:28:09] Philippians 1: entries=30 unique_ratio=1.000 time=37.9s OK
+[2026-10-25 10:28:09] Philippians 2: starting
+[2026-10-25 10:28:53] Philippians 2: entries=30 unique_ratio=1.000 time=43.2s OK
+[2026-10-25 10:28:53] Philippians 3: starting
+[2026-10-25 10:29:21] Philippians 3: entries=21 unique_ratio=1.000 time=28.5s OK
+[2026-10-25 10:29:21] Philippians 4: starting
+[2026-10-25 10:29:57] Philippians 4: entries=23 unique_ratio=1.000 time=36.2s OK
+[2026-10-25 10:29:57] Philippians: BOOK COMPLETE - coverage_ok chapters=4 unique_ratio=1.000
+[2026-10-25 10:29:57] Colossians 1: starting
+[2026-10-25 10:30:36] Colossians 1: entries=29 unique_ratio=1.000 time=38.8s OK
+[2026-10-25 10:30:36] Colossians 2: starting
+[2026-10-25 10:31:09] Colossians 2: entries=23 unique_ratio=1.000 time=33.1s OK
+[2026-10-25 10:31:09] Colossians 3: starting
+[2026-10-25 10:31:40] Colossians 3: entries=25 unique_ratio=1.000 time=30.5s OK
+[2026-10-25 10:31:40] Colossians 4: starting
+[2026-10-25 10:32:07] Colossians 4: entries=18 unique_ratio=1.000 time=27.5s OK
+[2026-10-25 10:32:07] Colossians: BOOK COMPLETE - coverage_ok chapters=4 unique_ratio=1.000
+[2026-10-25 10:32:07] 1 Thessalonians 1: starting
+[2026-10-25 10:32:31] 1 Thessalonians 1: entries=10 unique_ratio=1.000 time=23.4s OK
+[2026-10-25 10:32:31] 1 Thessalonians 2: starting
+[2026-10-25 10:33:00] 1 Thessalonians 2: entries=20 unique_ratio=1.000 time=29.7s OK
+[2026-10-25 10:33:00] 1 Thessalonians 3: starting
+[2026-10-25 10:33:24] 1 Thessalonians 3: entries=13 unique_ratio=1.000 time=23.6s OK
+[2026-10-25 10:33:24] 1 Thessalonians 4: starting
+[2026-10-25 10:33:51] 1 Thessalonians 4: entries=18 unique_ratio=1.000 time=26.8s OK
+[2026-10-25 10:33:51] 1 Thessalonians 5: starting
+[2026-10-25 10:34:29] 1 Thessalonians 5: entries=28 unique_ratio=1.000 time=38.3s OK
+[2026-10-25 10:34:29] 1 Thessalonians: BOOK COMPLETE - coverage_ok chapters=5 unique_ratio=1.000
+[2026-10-25 10:34:29] 2 Thessalonians 1: starting
+[2026-10-25 10:34:50] 2 Thessalonians 1: entries=12 unique_ratio=1.000 time=20.6s OK
+[2026-10-25 10:34:50] 2 Thessalonians 2: starting
+[2026-10-25 10:35:18] 2 Thessalonians 2: entries=17 unique_ratio=1.000 time=28.2s OK
+[2026-10-25 10:35:18] 2 Thessalonians 3: starting
+[2026-10-25 10:35:45] 2 Thessalonians 3: entries=18 unique_ratio=1.000 time=26.8s OK
+[2026-10-25 10:35:45] 2 Thessalonians: BOOK COMPLETE - coverage_ok chapters=3 unique_ratio=1.000
+[2026-10-25 10:35:45] 2 Timothy 1: starting
+[2026-10-25 10:36:14] 2 Timothy 1: entries=18 unique_ratio=1.000 time=28.7s OK
+[2026-10-25 10:36:14] 2 Timothy 2: starting
+[2026-10-25 10:36:49] 2 Timothy 2: entries=26 unique_ratio=1.000 time=35.3s OK
+[2026-10-25 10:36:49] 2 Timothy 3: starting
+[2026-10-25 10:37:14] 2 Timothy 3: entries=17 unique_ratio=1.000 time=25.2s OK
+[2026-10-25 10:37:14] 2 Timothy 4: starting
+[2026-10-25 10:37:47] 2 Timothy 4: entries=22 unique_ratio=1.000 time=33.2s OK
+[2026-10-25 10:37:47] 2 Timothy: BOOK COMPLETE - coverage_ok chapters=4 unique_ratio=1.000
+[2026-10-25 10:37:47] Titus 1: starting
+[2026-10-25 10:38:12] Titus 1: entries=16 unique_ratio=1.000 time=25.1s OK
+[2026-10-25 10:38:12] Titus 2: starting
+[2026-10-25 10:38:35] Titus 2: entries=15 unique_ratio=1.000 time=22.6s OK
+[2026-10-25 10:38:35] Titus 3: starting
+[2026-10-25 10:39:02] Titus 3: entries=15 unique_ratio=1.000 time=27.1s OK
+[2026-10-25 10:39:02] Titus: BOOK COMPLETE - coverage_ok chapters=3 unique_ratio=1.000
+[2026-10-25 10:39:02] Philemon 1: starting
+[2026-10-25 10:39:39] Philemon 1: entries=25 unique_ratio=1.000 time=37.1s OK
+[2026-10-25 10:39:39] Philemon: BOOK COMPLETE - coverage_ok chapters=1 unique_ratio=1.000
+[2026-10-25 10:39:39] Hebrews 1: starting
+[2026-10-25 10:40:03] Hebrews 1: entries=14 unique_ratio=1.000 time=23.7s OK
+[2026-10-25 10:40:03] Hebrews 2: starting
+[2026-10-25 10:40:28] Hebrews 2: entries=18 unique_ratio=1.000 time=24.9s OK
+[2026-10-25 10:40:28] Hebrews 3: starting
+[2026-10-25 10:40:54] Hebrews 3: entries=19 unique_ratio=1.000 time=26.1s OK
+[2026-10-25 10:40:54] Hebrews 4: starting
+[2026-10-25 10:41:19] Hebrews 4: entries=16 unique_ratio=1.000 time=25.5s OK
+[2026-10-25 10:41:19] Hebrews 5: starting
+[2026-10-25 10:41:41] Hebrews 5: entries=14 unique_ratio=1.000 time=21.9s OK
+[2026-10-25 10:41:41] Hebrews 6: starting
+[2026-10-25 10:42:10] Hebrews 6: entries=20 unique_ratio=1.000 time=28.6s OK
+[2026-10-25 10:42:10] Hebrews 7: starting
+[2026-10-25 10:42:49] Hebrews 7: entries=28 unique_ratio=1.000 time=39.2s OK
+[2026-10-25 10:42:49] Hebrews 8: starting
+[2026-10-25 10:43:12] Hebrews 8: entries=13 unique_ratio=1.000 time=23.1s OK
+[2026-10-25 10:43:12] Hebrews 9: starting
+[2026-10-25 10:43:50] Hebrews 9: entries=28 unique_ratio=1.000 time=37.9s OK
+[2026-10-25 10:43:50] Hebrews 10: starting
+[2026-10-25 10:44:40] Hebrews 10: entries=39 unique_ratio=1.000 time=49.6s OK
+[2026-10-25 10:44:40] Hebrews 11: starting
+[2026-10-25 10:45:21] Hebrews 11: entries=40 unique_ratio=1.000 time=40.7s OK
+[2026-10-25 10:45:21] Hebrews 12: starting
+[2026-10-25 10:45:54] Hebrews 12: entries=29 unique_ratio=1.000 time=33.5s OK
+[2026-10-25 10:45:54] Hebrews 13: starting
+[2026-10-25 10:46:22] Hebrews 13: entries=25 unique_ratio=1.000 time=28.3s OK
+[2026-10-25 10:46:22] Hebrews: BOOK COMPLETE - coverage_ok chapters=13 unique_ratio=1.000
+[2026-10-25 10:46:22] James 1: starting
+[2026-10-25 10:46:55] James 1: entries=27 unique_ratio=1.000 time=32.8s OK
+[2026-10-25 10:46:55] James 2: starting
+[2026-10-25 10:47:25] James 2: entries=26 unique_ratio=1.000 time=29.8s OK
+[2026-10-25 10:47:25] James 3: starting
+[2026-10-25 10:47:51] James 3: entries=18 unique_ratio=1.000 time=26.2s OK
+[2026-10-25 10:47:51] James 4: starting
+[2026-10-25 10:48:19] James 4: entries=17 unique_ratio=1.000 time=27.7s OK
+[2026-10-25 10:48:19] James 5: starting
+[2026-10-25 10:48:47] James 5: entries=20 unique_ratio=1.000 time=27.7s OK
+[2026-10-25 10:48:47] James: BOOK COMPLETE - coverage_ok chapters=5 unique_ratio=1.000
+[2026-10-25 10:48:47] 1 Peter 1: starting
+[2026-10-25 10:49:18] 1 Peter 1: entries=25 unique_ratio=1.000 time=31.1s OK
+[2026-10-25 10:49:18] 1 Peter 2: starting
+[2026-10-25 10:49:53] 1 Peter 2: entries=25 unique_ratio=1.000 time=35.3s OK
+[2026-10-25 10:49:53] 1 Peter 3: starting
+[2026-10-25 10:50:23] 1 Peter 3: entries=22 unique_ratio=1.000 time=30.0s OK
+[2026-10-25 10:50:23] 1 Peter 4: starting
+[2026-10-25 10:50:52] 1 Peter 4: entries=19 unique_ratio=1.000 time=29.6s OK
+[2026-10-25 10:50:52] 1 Peter 5: starting
+[2026-10-25 10:51:18] 1 Peter 5: entries=14 unique_ratio=1.000 time=25.9s OK
+[2026-10-25 10:51:18] 1 Peter: BOOK COMPLETE - coverage_ok chapters=5 unique_ratio=1.000
+[2026-10-25 10:51:18] 2 Peter 1: starting
+[2026-10-25 10:51:47] 2 Peter 1: entries=21 unique_ratio=1.000 time=29.0s OK
+[2026-10-25 10:51:47] 2 Peter 2: starting
+[2026-10-25 10:52:19] 2 Peter 2: entries=22 unique_ratio=1.000 time=31.5s OK
+[2026-10-25 10:52:19] 2 Peter 3: starting
+[2026-10-25 10:52:47] 2 Peter 3: entries=18 unique_ratio=1.000 time=27.6s OK
+[2026-10-25 10:52:47] 2 Peter: BOOK COMPLETE - coverage_ok chapters=3 unique_ratio=1.000
+[2026-10-25 10:52:47] 1 John 1: starting
+[2026-10-25 10:53:08] 1 John 1: entries=10 unique_ratio=1.000 time=21.8s OK
+[2026-10-25 10:53:08] 1 John 2: starting
+[2026-10-25 10:53:14] 1 John 2: attempt 1 failed: claude failed with code 129: 
+Warning: Opus: Opus 5.5 not available — using Opus 4.6 for this session
+
+[2026-10-25 10:54:52] 1 John 2: entries=29 unique_ratio=1.000 time=37.7s OK
+[2026-10-25 10:54:52] 1 John 3: starting
+[2026-10-25 10:55:23] 1 John 3: entries=24 unique_ratio=1.000 time=30.8s OK
+[2026-10-25 10:55:23] 1 John 4: starting
+[2026-10-25 10:55:54] 1 John 4: entries=21 unique_ratio=1.000 time=30.6s OK
+[2026-10-25 10:55:54] 1 John 5: starting
+[2026-10-25 10:56:21] 1 John 5: entries=21 unique_ratio=1.000 time=27.8s OK
+[2026-10-25 10:56:21] 1 John: BOOK COMPLETE - coverage_ok chapters=5 unique_ratio=1.000
+[2026-10-25 10:56:21] 2 John 1: starting
+[2026-10-25 10:56:45] 2 John 1: entries=13 unique_ratio=1.000 time=23.2s OK
+[2026-10-25 10:56:45] 2 John: BOOK COMPLETE - coverage_ok chapters=1 unique_ratio=1.000
+[2026-10-25 10:56:45] 3 John 1: starting
+[2026-10-25 10:57:08] 3 John 1: entries=14 unique_ratio=1.000 time=23.9s OK
+[2026-10-25 10:57:08] 3 John: BOOK COMPLETE - coverage_ok chapters=1 unique_ratio=1.000
+[2026-10-25 10:57:08] Jude 1: starting
+[2026-10-25 10:57:42] Jude 1: attempt 1 failed: Expecting ',' delimiter: line 72 column 102 (char 3152)
+[2026-10-25 11:00:35] Jude 1: entries=25 unique_ratio=1.000 time=112.9s OK
+[2026-10-25 11:00:35] Jude: BOOK COMPLETE - coverage_ok chapters=1 unique_ratio=1.000
+[2026-10-25 11:00:35] Revelation 1: starting
+[2026-10-25 11:01:05] Revelation 1: entries=20 unique_ratio=1.000 time=29.7s OK
+[2026-10-25 11:01:05] Revelation 2: starting
+[2026-10-25 11:01:40] Revelation 2: entries=29 unique_ratio=1.000 time=35.5s OK
+[2026-10-25 11:01:40] Revelation 3: starting
+[2026-10-25 11:02:13] Revelation 3: entries=22 unique_ratio=1.000 time=33.0s OK
+[2026-10-25 11:02:13] Revelation 4: starting
+[2026-10-25 11:02:34] Revelation 4: entries=11 unique_ratio=1.000 time=21.2s OK
+[2026-10-25 11:02:34] Revelation 5: starting
+[2026-10-25 11:02:58] Revelation 5: entries=14 unique_ratio=1.000 time=23.4s OK
+[2026-10-25 11:02:58] Revelation 6: starting
+[2026-10-25 11:03:26] Revelation 6: entries=17 unique_ratio=1.000 time=27.6s OK
+[2026-10-25 11:03:26] Revelation 7: starting
+[2026-10-25 11:03:50] Revelation 7: entries=17 unique_ratio=1.000 time=24.2s OK
+[2026-10-25 11:03:50] Revelation 8: starting
+[2026-10-25 11:04:15] Revelation 8: entries=13 unique_ratio=1.000 time=25.4s OK
+[2026-10-25 11:04:15] Revelation 9: starting
+[2026-10-25 11:04:48] Revelation 9: entries=21 unique_ratio=1.000 time=33.2s OK
+[2026-10-25 11:04:48] Revelation 10: starting
+[2026-10-25 11:05:10] Revelation 10: attempt 1 failed: Expecting ',' delimiter: line 23 column 37 (char 902)
+[2026-10-25 11:06:53] Revelation 10: entries=11 unique_ratio=1.000 time=43.3s OK
+[2026-10-25 11:06:53] Revelation 11: starting
+[2026-10-25 11:07:21] Revelation 11: entries=19 unique_ratio=1.000 time=27.8s OK
+[2026-10-25 11:07:21] Revelation 12: starting
+[2026-10-25 11:07:48] Revelation 12: entries=17 unique_ratio=1.000 time=26.9s OK
+[2026-10-25 11:07:48] Revelation 13: starting
+[2026-10-25 11:08:15] Revelation 13: entries=18 unique_ratio=1.000 time=27.2s OK
+[2026-10-25 11:08:15] Revelation 14: starting
+[2026-10-25 11:08:43] Revelation 14: entries=20 unique_ratio=1.000 time=28.5s OK
+[2026-10-25 11:08:43] Revelation 15: starting
+[2026-10-25 11:09:00] Revelation 15: entries=8 unique_ratio=1.000 time=17.0s OK
+[2026-10-25 11:09:00] Revelation 16: starting
+[2026-10-25 11:09:31] Revelation 16: entries=21 unique_ratio=1.000 time=30.7s OK
+[2026-10-25 11:09:31] Revelation 17: starting
+[2026-10-25 11:10:01] Revelation 17: entries=18 unique_ratio=1.000 time=30.1s OK
+[2026-10-25 11:10:01] Revelation 18: starting
+[2026-10-25 11:10:40] Revelation 18: attempt 1 failed: Expecting ',' delimiter: line 31 column 15 (char 1314)
+[2026-10-25 11:13:01] Revelation 18: entries=24 unique_ratio=1.000 time=81.0s OK
+[2026-10-25 11:13:01] Revelation 19: starting
+[2026-10-25 11:13:31] Revelation 19: entries=21 unique_ratio=1.000 time=30.5s OK
+[2026-10-25 11:13:31] Revelation 20: starting
+[2026-10-25 11:13:53] Revelation 20: entries=15 unique_ratio=1.000 time=21.5s OK
+[2026-10-25 11:13:53] Revelation 21: starting
+[2026-10-25 11:14:29] Revelation 21: attempt 1 failed: Expecting ',' delimiter: line 23 column 49 (char 882)
+[2026-10-25 11:17:12] Revelation 21: entries=28 unique_ratio=1.000 time=103.6s OK
+[2026-10-25 11:17:12] Revelation 22: starting
+[2026-10-25 11:17:41] Revelation 22: entries=21 unique_ratio=1.000 time=28.1s OK
+[2026-10-25 11:17:41] Revelation: BOOK COMPLETE - coverage_ok chapters=22 unique_ratio=1.000
+[2026-10-25 11:17:41] Run complete or finished all books
+2] Revelation 22: starting
+[2026-10-25 11:17:41] Revelation 22: entries=21 unique_ratio=1.000 time=28.1s OK
+[2026-10-25 11:17:41] Revelation: BOOK COMPLETE - coverage_ok chapters=22 unique_ratio=1.000
+[2026-10-25 11:17:41] Run complete or finished all books
