@@ -637,3 +637,72 @@ body.llt-mode .verse-container {
 
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slide-up { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+/* One shared, keyboard-accessible verse panel on every translation. */
+button.fn-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  margin: -8px 0 -8px 2px;
+  vertical-align: middle;
+  border: 0;
+  background: transparent;
+  font-size: 0;
+  touch-action: manipulation;
+}
+button.fn-marker::before {
+  content: '✦';
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 1px 4px;
+  border-radius: 3px;
+  background: var(--accent-light);
+}
+button.fn-marker:hover { background: transparent; color: var(--accent); }
+button.fn-marker:hover::before { background: var(--accent); color: white; }
+button.fn-marker:focus-visible,
+.verse-sheet button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.verse-text { min-width: 0; }
+.verse-sheet {
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  max-height: 80dvh;
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  overflow: hidden;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: transform 0.35s ease;
+}
+.verse-sheet.active { visibility: visible; transform: translateY(0); }
+.verse-sheet .sheet-header,
+.verse-sheet .sheet-actions-top { flex-shrink: 0; }
+.verse-sheet .sheet-header { padding: 0 0 0.8rem; }
+.verse-sheet .sheet-handle { flex-shrink: 0; padding: 0; }
+.verse-sheet .sheet-close { min-width: 44px; min-height: 44px; }
+.verse-sheet .sheet-actions-top { flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+.verse-sheet .sheet-action-btn {
+  min-height: 44px;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  transition: background 0.2s, color 0.2s, transform 0.2s, opacity 0.2s;
+}
+.verse-sheet .sheet-body {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  overflow-wrap: anywhere;
+  padding: 0.75rem 0;
+}
+@media (min-width: 768px) {
+  .verse-sheet { transform: translate(-50%, 100%); }
+  .verse-sheet.active { transform: translate(-50%, 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .verse-sheet, .sheet-overlay { transition: none; }
+}
